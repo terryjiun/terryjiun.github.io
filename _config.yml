@@ -6,24 +6,23 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: zh-TW
 
 # Change to your timezone › https://zones.arilyn.cc
-timezone:
+timezone: Asia/Taipei
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: 泰瑞的世界
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 數位生活、倉頡、輸入法、字型、字碼、網路資源、作業系統、瀏覽器、財經企管
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: 資訊科技喜好者泰瑞的心情點滴、研究心得、經驗分享、知識收錄、實驗筆記…
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://terryjiun.github.io/"
 
 github:
   username: github_username # change to your GitHub username

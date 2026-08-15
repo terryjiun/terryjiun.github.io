@@ -1,9 +1,11 @@
 ---
 title: 關於「泰瑞版小小輸入法」的更新頻率
-date: 2026-08-15 13:00:00 +0800
+date: 2026-08-15 10:10:00 +0800
 categories: [泰瑞版小小輸入法]
 tags: [小小輸入法, 碼表更新, 程式更新]
 ---
+
+#泰瑞君的部落格（新文）@GitHub
 
 最新版本的泰瑞版小小輸入法，以後會放在這個 Google Drive 路徑之下：<br>
 https://drive.google.com/drive/folders/1a6KmtMCETshYAzzX6RzHZ6m5s00IijEL?hl=en<br>

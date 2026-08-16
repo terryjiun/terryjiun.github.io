@@ -3,7 +3,6 @@
 
 @import "{{ site.theme }}";
 
-/* 調整左側選單的上方距離，避免被 tagline 遮擋 */
 .site-header nav {
-  margin-top: 2rem; /* 根據被遮擋的嚴重程度自行調整數值（例如 1.5rem 到 3rem） */
+  margin-top: 2rem;
 }

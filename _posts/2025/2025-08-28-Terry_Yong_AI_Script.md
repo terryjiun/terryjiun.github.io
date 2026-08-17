@@ -17,7 +17,7 @@ tags: [小小輸入法, 直通車, AI, Script]
 然後執行結果會回傳給小小輸入法，再輸入到 Windows 當前開啟的應用程式裡。<br>
 小小輸入法碼表裡的設置語法是：<br>
 <span style="color: blue;">編碼 $[候選框提示字串]$GO(|cscript$_程式碼目錄/程式碼檔名.副檔名$_參數$_//Nologo)</span><br>
-其中「$_」代表的是一個空白字元。<br>
+其中「$&#95;」代表的是一個空白字元。<br>
 例如：<span style="color: purple;">lotto $[大樂透隨機選號]$GO(|cscript$_script/lotto.vbs$_d$_//Nologo)</span><br>
 代表在小小輸入法裡打「lotto」後，會出現「大樂透隨機選號」的提示，<br>
 按空白鍵或對應的選取數字鍵後，<br>

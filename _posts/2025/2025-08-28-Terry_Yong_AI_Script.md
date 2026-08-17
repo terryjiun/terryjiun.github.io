@@ -16,9 +16,9 @@ tags: [小小輸入法, 直通車, AI, Script]
 這個指令需要搭配已經寫好的 js 或 vbs 類型的腳本（Script，程式碼），<br>
 然後執行結果會回傳給小小輸入法，再輸入到 Windows 當前開啟的應用程式裡。<br>
 小小輸入法碼表裡的設置語法是：<br>
-<span style="color: blue;">編碼 $[候選框提示字串]$GO(|cscript$_程式碼目錄/程式碼檔名.副檔名$_參數$_//Nologo)</span><br>
+<span style="color: blue;">編碼 $[候選框提示字串]$GO(|cscript$&#95;程式碼目錄/程式碼檔名.副檔名$&#95;參數$&#95;//Nologo)</span><br>
 其中「$&#95;」代表的是一個空白字元。<br>
-例如：<span style="color: purple;">lotto $[大樂透隨機選號]$GO(|cscript$_script/lotto.vbs$_d$_//Nologo)</span><br>
+例如：<span style="color: purple;">lotto $[大樂透隨機選號]$GO(|cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)</span><br>
 代表在小小輸入法裡打「lotto」後，會出現「大樂透隨機選號」的提示，<br>
 按空白鍵或對應的選取數字鍵後，<br>
 就會背景裡開啟 cscript，去執行 script 目錄（資料夾）下的 lotto.vbs，<br>
@@ -48,8 +48,8 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 <br>
 **1. calculator.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
-　　.cal $[四則運算(結果)]$GO(|cscript$_script/calculator.vbs$_//Nologo)<br>
-　　.cal $[四則運算(算式+結果)]$GO(|cscript$_script/calculator.vbs$_l$_//Nologo)<br>
+　　.cal $[四則運算(結果)]$GO(|cscript$&#95;script/calculator.vbs$&#95;//Nologo)<br>
+　　.cal $[四則運算(算式+結果)]$GO(|cscript$&#95;script/calculator.vbs$&#95;l$&#95;//Nologo)<br>
 　用途：<br>
 　　對剪貼簿內容進行四則運算，可接受千分位符號、百分比，<br>
 　　並接受以下3個進位函數（大小寫可以混合）：<br>
@@ -66,10 +66,10 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 <br>
 **2. convert.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
-　　.cv $[英文字母→倉頡字母]$GO(|cscript$_script/convert.vbs$_c$_//Nologo)<br>
-　　.cv $[英文字母→注音符號]$GO(|cscript$_script/convert.vbs$_p$_//Nologo)<br>
-　　.cv $[倉頡或注音→英文(小寫)]$GO(|cscript$_script/convert.vbs$_e1$_//Nologo)<br>
-　　.cv $[倉頡或注音→英文(大寫)]$GO(|cscript$_script/convert.vbs$_e2$_//Nologo)<br>
+　　.cv $[英文字母→倉頡字母]$GO(|cscript$&#95;script/convert.vbs$&#95;c$&#95;//Nologo)<br>
+　　.cv $[英文字母→注音符號]$GO(|cscript$&#95;script/convert.vbs$&#95;p$&#95;//Nologo)<br>
+　　.cv $[倉頡或注音→英文(小寫)]$GO(|cscript$&#95;script/convert.vbs$&#95;e1$&#95;//Nologo)<br>
+　　.cv $[倉頡或注音→英文(大寫)]$GO(|cscript$&#95;script/convert.vbs$&#95;e2$&#95;//Nologo)<br>
 　用途：<br>
 　　對剪貼簿內容進行倉頡字母、注音符號、英文字母之間的轉換。<br>
 　　(1)參數c：將剪貼簿內容裡的「英文字母」轉換為「倉頡字母」。<br>
@@ -84,11 +84,11 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 <br>
 **3. datecalc.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
-　　date. $[計算日期：日,日→天數]$GO(|cscript$_script/datecalc.vbs$_a1$_//Nologo)<br>
-　　date. $[計算日期：日,日→天數(區間在後)]$GO(|cscript$_script/datecalc.vbs$_a2$_//Nologo)<br>
-　　date. $[計算日期：日,日→天數(區間在前)]$GO(|cscript$_script/datecalc.vbs$_a3$_//Nologo)<br>
-　　date. $[計算日期：日,±天數→日期]$GO(|cscript$_script/datecalc.vbs$_b1$_//Nologo)<br>
-　　date. $[計算日期：日,±天數→日期(整句)]$GO(|cscript$_script/datecalc.vbs$_b2$_//Nologo)<br>
+　　date. $[計算日期：日,日→天數]$GO(|cscript$&#95;script/datecalc.vbs$&#95;a1$&#95;//Nologo)<br>
+　　date. $[計算日期：日,日→天數(區間在後)]$GO(|cscript$&#95;script/datecalc.vbs$&#95;a2$&#95;//Nologo)<br>
+　　date. $[計算日期：日,日→天數(區間在前)]$GO(|cscript$&#95;script/datecalc.vbs$&#95;a3$&#95;//Nologo)<br>
+　　date. $[計算日期：日,±天數→日期]$GO(|cscript$&#95;script/datecalc.vbs$&#95;b1$&#95;//Nologo)<br>
+　　date. $[計算日期：日,±天數→日期(整句)]$GO(|cscript$&#95;script/datecalc.vbs$&#95;b2$&#95;//Nologo)<br>
 　用途：<br>
 　(1)對剪貼簿內容計算「yyyy.mm.dd,yyyy.mm.dd」（限定此格式）兩個日期的間隔天數。<br>
 　(2)對剪貼簿內容計算「yyyy.mm.dd,±n」（限定此格式）該日期之後（前）n天的日期。<br>
@@ -98,9 +98,9 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 <br>
 **4. dateformat.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
-　　date, $[日期轉換(西元年月日)]$GO(|cscript$_script/dateformat.vbs$_a$_//Nologo)<br>
-　　date, $[日期轉換(中華民國年月日)]$GO(|cscript$_script/dateformat.vbs$_b$_//Nologo)<br>
-　　date, $[日期轉換(民國年月日)]$GO(|cscript$_script/dateformat.vbs$_c$_//Nologo)<br>
+　　date, $[日期轉換(西元年月日)]$GO(|cscript$&#95;script/dateformat.vbs$&#95;a$&#95;//Nologo)<br>
+　　date, $[日期轉換(中華民國年月日)]$GO(|cscript$&#95;script/dateformat.vbs$&#95;b$&#95;//Nologo)<br>
+　　date, $[日期轉換(民國年月日)]$GO(|cscript$&#95;script/dateformat.vbs$&#95;c$&#95;//Nologo)<br>
 　用途：<br>
 　　將對剪貼簿內容「yyyy.mm.dd」（限定此格式）轉換為西元年月日、中華民國年月日、民國年月日。<br>
 　用法舉例：<br>
@@ -109,8 +109,8 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 <br>
 **5. checkid.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
-　　.id $[身分證字號驗證]$GO(|cscript$_script/checkid.vbs$_a$_//Nologo)<br>
-　　.id $[統一編號驗證]$GO(|cscript$_script/checkid.vbs$_b$_//Nologo)<br>
+　　.id $[身分證字號驗證]$GO(|cscript$&#95;script/checkid.vbs$&#95;a$&#95;//Nologo)<br>
+　　.id $[統一編號驗證]$GO(|cscript$&#95;script/checkid.vbs$&#95;b$&#95;//Nologo)<br>
 　用途：<br>
 　　將對剪貼簿內容（限定10個字元）驗證其是否為有效的身分證字號或統一編號。<br>
 　　（統一編號邏輯檢查採用財政部110年12月22日公布之新規則，即可被5整除）<br>
@@ -120,8 +120,8 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 <br>
 **6. lotto.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
-　　lotto $[大樂透隨機選號]$GO(|cscript$_script/lotto.vbs$_d$_//Nologo)<br>
-　　lotto $[威力彩隨機選號]$GO(|cscript$_script/lotto.vbs$_w$_//Nologo)<br>
+　　lotto $[大樂透隨機選號]$GO(|cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)<br>
+　　lotto $[威力彩隨機選號]$GO(|cscript$&#95;script/lotto.vbs$&#95;w$&#95;//Nologo)<br>
 　用途：<br>
 　　產生「大樂透」、「威力彩」的隨機選號（每次產生的結果幾乎都是不同的）。<br>
 　用法舉例：<br>

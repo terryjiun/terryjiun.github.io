@@ -1,3 +1,7 @@
+:root {
+  --font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', sans-serif !important;
+}
+
 html, body {
-  font-family: 'Noto Sans TC', 'Microsoft JhengHei', 'PingFang TC', sans-serif !important;
+  font-family: var(--font-family) !important;
 }

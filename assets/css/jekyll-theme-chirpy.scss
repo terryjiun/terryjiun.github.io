@@ -1,12 +1,22 @@
----
----
-
+// 匯入 Chirpy 主題樣式
 @import "jekyll-theme-chirpy";
 
-body {
-  font-family: 'Noto Sans TC', sans-serif;
+// 全域字型設定
+:root {
+  --font-family: 'Microsoft JhengHei', 'PingFang TC', 'Noto Sans TC', sans-serif !important;
 }
 
+// 套用到 body
+body {
+  font-family: var(--font-family) !important;
+}
+
+// 套用到標題
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: var(--font-family) !important;
+}
+
+// 其他常見元素
+p, span, li, a, blockquote {
+  font-family: var(--font-family) !important;
 }

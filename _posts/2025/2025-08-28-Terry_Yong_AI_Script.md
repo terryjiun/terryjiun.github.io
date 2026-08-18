@@ -8,7 +8,7 @@ tags: [小小輸入法, 直通車, AI, Script]
 #泰瑞的世界（舊文）@痞客邦
 
 存放於筆者的【[Google 雲端硬碟][1]】或【[OneDrive][2]】的「輸入法相關→輸入法軟體」目錄之下，<br>
-有個檔案名為「<font color="red">Terry&#95;Yong&#95;AI&#95;Script.zip</font>」，將其下載並解壓縮（解壓縮密碼：<font color="red">yong</font>），<br>
+有個檔案名為「<span style="color: red">Terry&#95;Yong&#95;AI&#95;Script.zip</span>」，將其下載並解壓縮（解壓縮密碼：<span style="color: red">yong</span>），<br>
 再儲存到《泰瑞版小小輸入法》的安裝目錄下（即「Terry&#95;Yong」資料夾下），<br>
 然後可以在輸入法碼表裡運用小小輸入法的「命令直通車」功能來擴增一些實用且有趣的功能。<br>
 <br>
@@ -16,9 +16,9 @@ tags: [小小輸入法, 直通車, AI, Script]
 這個指令需要搭配已經寫好的 &#42;.js 或 &#42;.vbs 類型的腳本（Script，程式碼），<br>
 然後執行結果會回傳給小小輸入法，再輸入到 Windows 當前開啟的應用程式裡。<br>
 小小輸入法碼表裡的設置語法是：<br>
-**<font color="blue">編碼 $&#91;候選框提示字串&#93;$GO(&#124;cscript$&#95;程式碼目錄/程式碼檔名.副檔名$&#95;參數$&#95;//Nologo)</font>**<br>
+<span style="color: blue">**編碼 $&#91;候選框提示字串&#93;$GO(&#124;cscript$&#95;程式碼目錄/程式碼檔名.副檔名$&#95;參數$&#95;//Nologo)**</span><br>
 其中「$&#95;」代表的是一個空白字元。<br>
-例如：**<font color="purple">lotto $&#91;大樂透隨機選號&#93;$GO(&#124;cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)</font>**<br>
+例如：<span style="color: purple">**lotto $&#91;大樂透隨機選號&#93;$GO(&#124;cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)**</span><br>
 代表在小小輸入法裡打「lotto」後，會出現「大樂透隨機選號」的提示，<br>
 按空白鍵或對應的選取數字鍵後，<br>
 就會背景裡開啟 cscript，去執行 script 目錄（資料夾）下的 lotto.vbs，<br>
@@ -38,13 +38,13 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 只是AI寫出的程式碼未必一次就能完善，所以需要反覆的測試，並將錯誤訊息回報給AI，<br>
 它們會不斷的修正程式碼，使用者只要有足夠的耐心及毅力即可。<br>
 <br>
-目前「<font color="red">Terry&#95;Yong&#95;AI&#95;Script.zip</font>」裡的程式碼都是筆者利用以上的AI寫出來的，<br>
+目前「<span style="color: red">Terry&#95;Yong&#95;AI&#95;Script.zip</span>」裡的程式碼都是筆者利用以上的AI寫出來的，<br>
 **全部都在 Windows XP/7/8.1/10/11 環境下實際測試過，測試結果皆能正確執行。**<br>
 有些不需要有輸入界面（如樂透選號），這類程式碼較容易處理，因為只要運算後將結果輸出即可。<br>
 有些原本應該要有輸入界面，但是可以透過讀取剪貼簿的內容來處理，<br>
 只要使用者先將要處理的字串先剪下或複製，<br>
 即可用輸入法編碼（如 lotto 加空白鍵）在背景裡呼叫程式來執行，並將結果輸出到前景。<br>
-這個「<font color="red">Terry&#95;Yong&#95;AI&#95;Script.zip</font>」筆者會不定期更新，並將使用方式列於下方。<br>
+這個「<span style="color: red">Terry&#95;Yong&#95;AI&#95;Script.zip</span>」筆者會不定期更新，並將使用方式列於下方。<br>
 <br>
 **1. calculator.vbs**<br>
 　碼表設置（可自行更改編碼及提示）：<br>
@@ -58,7 +58,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　(1)碼表裡不指定 calculator.vbs 的參數（只輸出計算結果）<br>
 　　　複製 <u>round(38&#42;1,000,0)-round(38&#42;1,000&#42;0.1425%&#42;37%,0)-round(38&#42;1,000&#42;0.3%,0)-31,070</u><br>
 　　　然後在小小輸入法裡打「.cal」再按空白鍵，就會出現「6,796」<br>
-　　　（註：<font color="green">**電腦速度較慢的話可能會等超過5秒，正常只需要等3秒左右，以下範例皆相同**</font>）<br>
+　　　（註：<span style="color: pink">**電腦速度較慢的話可能會等超過5秒，正常只需要等3秒左右，以下範例皆相同**</span>）<br>
 　　(2)碼表裡指定 calculator.vbs 的參數：l（先輸出剪貼簿內容，再輸出 = 計算結果）<br>
 　　　剪下 <u>round(38&#42;1,000,0)-round(38&#42;1,000&#42;0.1425%&#42;37%,0)-round(38&#42;1,000&#42;0.3%,0)-31,070</u><br>
 　　　然後在小小輸入法裡打「.cal」再按「2」，會出現：<br>
@@ -130,5 +130,5 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 其他可以創作的題材有文字格式轉換、規則檢核（驗證），或是：<br>
 開啟指定網址並後綴股票代號（用來查股票資訊）或特定字元（用來查線上字典）…等，<br>
 讀者可以自行摸索或來信交流、討論。<br>
-[1]: https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh
-[2]: https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA
+[1]: https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh<br>
+[2]: https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA<br>

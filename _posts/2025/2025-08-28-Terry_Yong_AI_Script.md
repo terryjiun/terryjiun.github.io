@@ -128,7 +128,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　參數及說明在此略過！<br>
 <br>
 其他可以創作的題材有文字格式轉換、規則檢核（驗證），或是：<br>
-開啟指定網址並後綴股票代號（用來查股票資訊）或特定字元（用來查線上字典）…等，<br>
+開啟指定網址並後綴股票代號（用來查股票資訊）或特定字元（用來查線上字典）……等，<br>
 讀者可以自行摸索或來信交流、討論。<br>
 [1]: https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh
 [2]: https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA

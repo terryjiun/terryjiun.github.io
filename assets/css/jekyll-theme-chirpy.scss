@@ -1,7 +1,7 @@
-// 匯入 Chirpy 主題樣式
+// 匯入 Chirpy 主題
 @import "jekyll-theme-chirpy";
 
-// 全域字型設定
+// 覆蓋字型變數
 :root {
   --font-family: 'Microsoft JhengHei', 'PingFang TC', 'Noto Sans TC', sans-serif !important;
 }
@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-family) !important;
 }
 
-// 其他常見元素
+// 套用到其他文字元素
 p, span, li, a, blockquote {
   font-family: var(--font-family) !important;
 }

@@ -16,9 +16,9 @@ tags: [小小輸入法, 直通車, AI, Script]
 這個指令需要搭配已經寫好的 &#42;.js 或 &#42;.vbs 類型的腳本（Script，程式碼），<br>
 然後執行結果會回傳給小小輸入法，再輸入到 Windows 當前開啟的應用程式裡。<br>
 小小輸入法碼表裡的設置語法是：<br>
-<font color="blue">**編碼 $&#91;候選框提示字串&#93;$GO(&#124;cscript$&#95;程式碼目錄/程式碼檔名.副檔名$&#95;參數$&#95;//Nologo)**</font><br>
+**<font color="blue">編碼 $&#91;候選框提示字串&#93;$GO(&#124;cscript$&#95;程式碼目錄/程式碼檔名.副檔名$&#95;參數$&#95;//Nologo)</font>**<br>
 其中「$&#95;」代表的是一個空白字元。<br>
-例如：<font color="purple">**lotto $&#91;大樂透隨機選號&#93;$GO(&#124;cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)**</font><br>
+例如：**<font color="purple">lotto $&#91;大樂透隨機選號&#93;$GO(&#124;cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)</font>**<br>
 代表在小小輸入法裡打「lotto」後，會出現「大樂透隨機選號」的提示，<br>
 按空白鍵或對應的選取數字鍵後，<br>
 就會背景裡開啟 cscript，去執行 script 目錄（資料夾）下的 lotto.vbs，<br>

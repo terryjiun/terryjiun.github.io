@@ -390,7 +390,7 @@ tags: [輸入法, 倉頡, 注音, 無蝦米, 行列, 大易]
 但重點是您是否有能力寫出一篇好文章來宣揚自己的觀點呢？<br>
 <br>
 想要進一步了解倉頡輸入法的人可以到以下網址查看：<br>
-[https://zh.wikipedia.org/wiki/倉頡輸入法](https://zh.wikipedia.org/wiki/倉頡輸入法)<br>
+[https://zh.wikipedia.org/wiki/倉頡輸入法](https://zh.wikipedia.org/wiki/倉頡輸入法){:target="_blank"}<br>
 並希望這篇文章的分析對您是有幫助的！<br>
 <hr>
 【註】此處指的特殊電腦如下：<br>

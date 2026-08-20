@@ -1,19 +1,9 @@
 ---
 ---
+
+@use 'abstracts/variables' with (
+  $font-family-base: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif;
+  $font-family-heading: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif;
+);
+
 @use 'main';
-
-:root {
-  --font-family: "Microsoft JhengHei", "SF Pro TC", "SF Pro Text", "PingFang TC", Arial, sans-serif !important;
-}
-
-body {
-  font-family: var(--font-family) !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family) !important;
-}
-
-p, span, li, a, blockquote {
-  font-family: var(--font-family) !important;
-}

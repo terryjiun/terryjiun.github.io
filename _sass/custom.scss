@@ -1,6 +1,10 @@
-$font-family-base: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif !default;
-$font-family-heading: 'Noto Sans TC', 'Microsoft JhengHei', sans-serif !default;
+$font-family-base: "Microsoft JhengHei", "PingFang TC", sans-serif !default;
+$font-family-heading: "Microsoft JhengHei", "PingFang TC", sans-serif !default;
 
 :root {
-  --font-family: #{$font-family-base};
+  --font-family: "Microsoft JhengHei", "PingFang TC", sans-serif;
+}
+
+body {
+  font-family: "Microsoft JhengHei", "PingFang TC", sans-serif !important;
 }

@@ -46,7 +46,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 即可用輸入法編碼（如 lotto 加空白鍵）在背景裡呼叫程式來執行，並將結果輸出到前景。<br>
 這個「<span style="color: red">Terry&#95;Yong&#95;AI&#95;Script.zip</span>」筆者會不定期更新，並將使用方式列於下方。<br>
 <br>
-**1. calculator.vbs**<br>
+## 1. calculator.vbs
 　碼表設置（可自行更改編碼及提示）：<br>
 　　.cal $&#91;四則運算(結果)&#93;$GO(&#124;cscript$&#95;script/calculator.vbs$&#95;//Nologo)<br>
 　　.cal $&#91;四則運算(算式+結果)&#93;$GO(&#124;cscript$&#95;script/calculator.vbs$&#95;l$&#95;//Nologo)<br>
@@ -64,7 +64,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　　然後在小小輸入法裡打「.cal」再按「2」，會出現：<br>
 　　　round(38&#42;1,000,0)-round(38&#42;1,000&#42;0.1425%&#42;37%,0)-round(38&#42;1,000&#42;0.3%,0)-31,070=6,796<br>
 <br>
-**2. convert.vbs**<br>
+## 2. convert.vbs
 　碼表設置（可自行更改編碼及提示）：<br>
 　　.cv $&#91;英文字母→倉頡字母&#93;$GO(&#124;cscript$&#95;script/convert.vbs$&#95;c$&#95;//Nologo)<br>
 　　.cv $&#91;英文字母→注音符號&#93;$GO(&#124;cscript$&#95;script/convert.vbs$&#95;p$&#95;//Nologo)<br>
@@ -82,7 +82,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　英文轉倉頡使用「<u>kmfr   jher   qjnl</u>」；倉頡轉英文使用「<u>大一火口   十竹水口   手十弓中</u>」<br>
 　　英文轉注音使用「<u>qu3   dk4   1;</u>」；注音轉英文使用「<u>ㄆㄧˇ   ㄎㄜˋ   ㄅㄤ</u>」。<br>
 <br>
-**3. datecalc.vbs**<br>
+## 3. datecalc.vbs
 　碼表設置（可自行更改編碼及提示）：<br>
 　　date. $&#91;計算日期：日,日→天數&#93;$GO(&#124;cscript$&#95;script/datecalc.vbs$&#95;a1$&#95;//Nologo)<br>
 　　date. $&#91;計算日期：日,日→天數(區間在後)&#93;$GO(&#124;cscript$&#95;script/datecalc.vbs$&#95;a2$&#95;//Nologo)<br>
@@ -96,7 +96,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　參數及說明在此略過！<br>
 　　讀者可使用「<u>2025.08.28,2025.12.31</u>」、「<u>2025.08.28,100</u>」自行試驗。<br>
 <br>
-**4. dateformat.vbs**<br>
+## 4. dateformat.vbs
 　碼表設置（可自行更改編碼及提示）：<br>
 　　date, $&#91;日期轉換(西元年月日)&#93;$GO(&#124;cscript$&#95;script/dateformat.vbs$&#95;a$&#95;//Nologo)<br>
 　　date, $&#91;日期轉換(中華民國年月日)&#93;$GO(&#124;cscript$&#95;script/dateformat.vbs$&#95;b$&#95;//Nologo)<br>
@@ -107,7 +107,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　參數及說明在此略過！<br>
 　　讀者可使用「<u>8.28</u>」（未指定年份時代表今年）、「<u>2025.08.28</u>」自行試驗。<br>
 <br>
-**5. checkid.vbs**<br>
+## 5. checkid.vbs
 　碼表設置（可自行更改編碼及提示）：<br>
 　　.id $&#91;身分證字號驗證&#93;$GO(&#124;cscript$&#95;script/checkid.vbs$&#95;a$&#95;//Nologo)<br>
 　　.id $&#91;統一編號驗證&#93;$GO(&#124;cscript$&#95;script/checkid.vbs$&#95;b$&#95;//Nologo)<br>
@@ -118,7 +118,7 @@ Copilot、Gemini、Grok 等 AI 也行，大家可以善加利用（Grok似乎較
 　　參數及說明在此略過！<br>
 　　讀者可使用「<u>A123456789</u>」及「<u>87654321</u>」自行試驗。<br>
 <br>
-**6. lotto.vbs**<br>
+## 6. lotto.vbs
 　碼表設置（可自行更改編碼及提示）：<br>
 　　lotto $&#91;大樂透隨機選號&#93;$GO(&#124;cscript$&#95;script/lotto.vbs$&#95;d$&#95;//Nologo)<br>
 　　lotto $&#91;威力彩隨機選號&#93;$GO(&#124;cscript$&#95;script/lotto.vbs$&#95;w$&#95;//Nologo)<br>

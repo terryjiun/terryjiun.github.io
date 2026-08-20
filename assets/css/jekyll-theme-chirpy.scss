@@ -2,6 +2,18 @@
 ---
 @use 'main';
 
+:root {
+  --font-family: "Microsoft JhengHei", "SF Pro TC", "SF Pro Text", "PingFang TC", Arial, sans-serif !important;
+}
+
 body {
-  font-family: "Microsoft JhengHei", "微軟正黑體", sans-serif, -apple-system, BlinkMacSystemFont;
+  font-family: var(--font-family) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family) !important;
+}
+
+p, span, li, a, blockquote {
+  font-family: var(--font-family) !important;
 }

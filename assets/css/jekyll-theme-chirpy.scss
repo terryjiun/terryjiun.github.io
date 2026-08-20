@@ -3,7 +3,6 @@
 
 @use 'main {%- if jekyll.environment == 'production' -%} .bundle {%- endif -%}';
 
-/* append your custom style below */
 body {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
 }
@@ -12,4 +11,12 @@ h1, h2, h3, h4, h5, h6,
 .site-title,
 #topbar-title {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
+}
+
+:root,
+[data-bs-theme="light"] {
+  --text-color: #333333;
+  --heading-color: #1a1a1a;
+  --text-muted-color: #555555;
+  --post-list-text-color: #333333;
 }

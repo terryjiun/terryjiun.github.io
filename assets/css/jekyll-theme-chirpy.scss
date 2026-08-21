@@ -52,3 +52,25 @@ footer {
   border-radius: 0.5rem;
   padding: 1rem 0.75rem;
 }
+
+.toc-border-cover,
+#toc-wrapper::before,
+#toc-wrapper::after {
+  display: none !important;
+  background: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+}
+
+#search-wrapper,
+#search-input,
+#search {
+  background: #F8F4F1 !important;
+  background-color: #F8F4F1 !important;
+}
+
+#search-input:focus,
+#search:focus {
+  background: #F8F4F1 !important;
+  background-color: #F8F4F1 !important;
+}

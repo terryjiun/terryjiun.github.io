@@ -7,7 +7,7 @@ tags: [特殊字元, 新奇有趣]
 
 #泰瑞的世界（舊文）@痞客邦
 
-![𠀗](https://img.zdic.net/kai/cn/20017.svg)　![𠀖](https://img.zdic.net/kai/cn/20016.svg)<br>
+![𠀗](https://www.cns11643.gov.tw/char/kai/64/20017.png)　![𠀖](https://www.cns11643.gov.tw/char/kai/64/20016.png)<br>
 共匪被砍了右腳 V.S. 共匪被砍了左腳<br>
 <br>
 我覺得漢字不必有讀音！<br>

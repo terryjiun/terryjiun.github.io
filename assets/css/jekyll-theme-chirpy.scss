@@ -12,28 +12,15 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
 }
 
-html {
-  &:not([data-mode]), &[data-mode='light'] {
-    --main-bg: #fcfbca; /* Light mode background */
-  }
-
-  &[data-mode='dark'] {
-    --main-bg: #121212; /* Dark mode background */
-  }
-}
-
-body {
-  background-color: var(--main-bg);
-}
-
 :root,
 [data-bs-theme="light"],
 html[data-mode="light"] {
-
+  --main-bg: #FFF8E7;
+  --sidebar-bg: #E3F2FD;
   --heading-color: #000000;
   --text-color: #000000;
-  --text-muted-color: rgb(0 0 0 / 0.75);
-  --post-list-text-color: rgb(0 0 0 / 0.75);
+  --text-muted-color: rgb(0 0 0 / 0.85);
+  --post-list-text-color: rgb(0 0 0 / 0.85);
 }
 
 #post-list .card-text.content,

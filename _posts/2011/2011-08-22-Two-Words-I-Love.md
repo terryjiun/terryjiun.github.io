@@ -25,7 +25,7 @@ tags: [特殊字元, 新奇有趣]
 只是台語的「孔鏗」好像是罵人的話。<br>
 <br>
 如果按照這個網頁：<br>
-[https://zdic.net/hans/𠀗](https://zdic.net/hans/𠀗)<br>
+[https://zdic.net/hans/𠀗](https://zdic.net/hans/𠀗){:target="_blank"}<br>
 裡頭大陸網友的意見來看，<br>
 「乒乓」是象聲詞，<br>
 「𠁣𠃛」也是近似「乒乓」的象聲詞；<br>

@@ -15,15 +15,14 @@ h1, h2, h3, h4, h5, h6,
 
 :root,
 [data-bs-theme="light"] {
-  --text-color: #0D0D0D;    /* 內頁正文 */
-  --heading-color: #000000;    /* 標題 */
-  --text-muted-color: #0D0D0D;    /* 次要文字及首頁預覽 */
-  --post-list-text-color: #000000;    /* 首頁文章列表 */
+  --text-color: #0D0D0D;
+  --heading-color: #000000;
+  --text-muted-color: #0D0D0D;
+  --post-list-text-color: #000000;
 }
 
-/* 首頁文章預覽文字 */
 #post-list .card-text.content {
-  color: #0D0D0D; !important;
+  color: #000000 !important;
 }
 
 #post-list .card-text.content p {

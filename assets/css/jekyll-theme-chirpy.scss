@@ -17,12 +17,6 @@ h1, h2, h3, h4, h5, h6,
 :root,
 [data-bs-theme="light"],
 html[data-mode="light"] {
-  /* 頁面主背景：淡黃色 */
-  --main-bg: #FFF8E7;
-
-  /* 側邊欄背景：淡藍色 */
-  --sidebar-bg: #E3F2FD;
-
   /* 標題顏色：純黑 */
   --heading-color: #000000;
 
@@ -32,10 +26,26 @@ html[data-mode="light"] {
   /* 次要文字、首頁文章摘要：85% 黑色 */
   --text-muted-color: rgb(0 0 0 / 0.85);
   --post-list-text-color: rgb(0 0 0 / 0.85);
+
+  /* 首頁文章卡片背景：淺灰色 */
+  --card-bg: #F0F0F0;
+
+  /* 滑鼠移到卡片上的背景：淡黃色 */
+  --card-hover-bg: #FFF8E7;
 }
 
 /* ========== 確保首頁文章摘要使用 85% 黑色 ========== */
 #post-list .card-text.content,
 #post-list .card-text.content p {
   color: var(--post-list-text-color) !important;
+}
+
+/* ========== 強化卡片背景與 hover 效果（提高優先級） ========== */
+#post-list .post-preview {
+  background: var(--card-bg) !important;
+}
+
+#post-list .post-preview:hover::before {
+  background-color: var(--card-hover-bg) !important;
+  opacity: 0.6; /* 可依喜好調整 0.4～0.8 */
 }

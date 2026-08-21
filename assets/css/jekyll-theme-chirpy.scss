@@ -16,15 +16,15 @@ h1, h2, h3, h4, h5, h6,
 :root,
 [data-bs-theme="light"] {
   --text-color: #000000;
-  --heading-color: #0D0D0D;
-  --text-muted-color: #0D0D0D;
+  --heading-color: #000000;
+  --text-muted-color: #000000;
   --post-list-text-color: #000000;
 }
 
 #post-list .card-text.content {
-  color: #0D0D0D !important;
+  color: #000000 !important;
 }
 
 #post-list .card-text.content p {
-  color: #0D0D0D !important;
+  color: #000000 !important;
 }

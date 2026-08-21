@@ -19,21 +19,27 @@ h1, h2, h3, h4, h5, h6,
 html[data-mode="light"] {
   --heading-color: #000000;
   --text-color: #000000;
-  --text-muted-color: rgb(0 0 0 / 0.85);
-  --post-list-text-color: rgb(0 0 0 / 0.85);
+  --text-muted-color: rgb(0 0 0 / 0.75);
+  --post-list-text-color: rgb(0 0 0 / 0.75);
 }
 
-/* ========== 強制背景色（提高優先級） ========== */
-/* 頁面主背景：淡黃色 */
+/* ========== 強制背景色 ========== */
+/* 頁面主背景：淺灰色 */
 body {
-  background: #FFF8E7 !important;
-  background-color: #FFF8E7 !important;
+  background: #F3F4F6 !important;
+  background-color: #F3F4F6 !important;
 }
 
-/* 側邊欄背景：淡藍色 */
+/* 側邊欄背景：淺藍色 */
 #sidebar {
-  background: #E3F2FD !important;
-  background-color: #E3F2FD !important;
+  background: #E6F0FA !important;
+  background-color: #E6F0FA !important;
+}
+
+/* 頁腳背景：與主背景一致（淺灰色） */
+footer {
+  background: #F3F4F6 !important;
+  background-color: #F3F4F6 !important;
 }
 
 /* ========== 首頁文章摘要顏色 ========== */

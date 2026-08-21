@@ -2,6 +2,7 @@
 ---
 @use 'main {%- if jekyll.environment == 'production' -%} .bundle {%- endif -%}';
 
+/* ========== 字型設定 ========== */
 body {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
 }
@@ -12,17 +13,30 @@ h1, h2, h3, h4, h5, h6,
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
 }
 
+/* ========== 顏色變數（文字用） ========== */
 :root,
 [data-bs-theme="light"],
 html[data-mode="light"] {
-  --main-bg: #FFF8E7;
-  --sidebar-bg: #E3F2FD;
   --heading-color: #000000;
   --text-color: #000000;
   --text-muted-color: rgb(0 0 0 / 0.85);
-  --post-list-text-color: rgb(0 0 0 / 0.85) !important;
+  --post-list-text-color: rgb(0 0 0 / 0.85);
 }
 
+/* ========== 強制背景色（提高優先級） ========== */
+/* 頁面主背景：淡黃色 */
+body {
+  background: #FFF8E7 !important;
+  background-color: #FFF8E7 !important;
+}
+
+/* 側邊欄背景：淡藍色 */
+#sidebar {
+  background: #E3F2FD !important;
+  background-color: #E3F2FD !important;
+}
+
+/* ========== 首頁文章摘要顏色 ========== */
 #post-list .card-text.content,
 #post-list .card-text.content p {
   color: var(--post-list-text-color) !important;

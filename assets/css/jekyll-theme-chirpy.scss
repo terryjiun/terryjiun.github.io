@@ -2,18 +2,22 @@
 ---
 @use 'main {%- if jekyll.environment == 'production' -%} .bundle {%- endif -%}';
 
-/* ========== 字型設定 ========== */
 body {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
+  font-weight: 500;
 }
 
 h1, h2, h3, h4, h5, h6,
 .site-title,
 #topbar-title {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
+  font-weight: 600;
 }
 
-/* ========== 顏色變數（文字用） ========== */
+.content {
+  font-weight: 500;
+}
+
 :root,
 [data-bs-theme="light"],
 html[data-mode="light"] {
@@ -23,39 +27,28 @@ html[data-mode="light"] {
   --post-list-text-color: rgb(0 0 0 / 0.75);
 }
 
-/* ========== 強制背景色 ========== */
-/* 頁面主背景：淺灰色 */
 body {
   background: #F3F4F6 !important;
   background-color: #F3F4F6 !important;
 }
 
-/* 側邊欄背景：淺藍色 */
-#sidebar {
-  background: #E6F0FA !important;
-  background-color: #E6F0FA !important;
-}
-
-/* 頁腳背景：與主背景一致（淺灰色） */
 footer {
   background: #F3F4F6 !important;
   background-color: #F3F4F6 !important;
 }
 
-/* ========== 首頁文章摘要顏色 ========== */
+#sidebar {
+  background: #FAF4E3 !important;
+  background-color: #FAF4E3 !important;
+}
+
 #post-list .card-text.content,
 #post-list .card-text.content p {
   color: var(--post-list-text-color) !important;
 }
 
-/* ========== 右側面板背景（最近更新、熱門標籤等） ========== */
 #panel-wrapper {
-  background: #FAF4E3 !important;   /* 這裡改成你想要的顏色，例如淺灰 */
-  /* 或改成其他顏色，例如：
-     background: #E8F5E9 !important;  淺綠
-     background: #FFF3E0 !important;  淺橘
-     background: #E3F2FD !important;  跟側邊欄一樣的淡藍
-  */
-  border-radius: 0.5rem;            /* 可選：加圓角看起來更舒服 */
-  padding: 1rem 0.75rem;            /* 可選：內邊距 */
+  background: #E6F0FA !important;
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
 }

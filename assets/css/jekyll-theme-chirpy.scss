@@ -47,3 +47,15 @@ footer {
 #post-list .card-text.content p {
   color: var(--post-list-text-color) !important;
 }
+
+/* ========== 右側面板背景（最近更新、熱門標籤等） ========== */
+#panel-wrapper {
+  background: #FAF4E3 !important;   /* 這裡改成你想要的顏色，例如淺灰 */
+  /* 或改成其他顏色，例如：
+     background: #E8F5E9 !important;  淺綠
+     background: #FFF3E0 !important;  淺橘
+     background: #E3F2FD !important;  跟側邊欄一樣的淡藍
+  */
+  border-radius: 0.5rem;            /* 可選：加圓角看起來更舒服 */
+  padding: 1rem 0.75rem;            /* 可選：內邊距 */
+}

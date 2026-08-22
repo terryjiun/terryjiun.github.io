@@ -2,7 +2,7 @@
 title: 造字區
 date: 2010-04-13 10:10:00 +0800
 categories: [字碼與字型]
-tags: [造字區, Big5, GB2312, Windows XP]
+tags: [造字區, Big5, GB2312, Windows]
 ---
 
 #泰瑞的世界（舊文）@痞客邦

@@ -2,7 +2,7 @@
 title: Windows 10/11 內建的字型已經支援 CJK Ext-E/F/G/H/I 字元集了！
 date: 2025-05-28 10:10:00 +0800
 categories: [字碼與字型]
-tags: [字型, CJK 字元集, CJK Extension I]
+tags: [字型, CJK]
 ---
 
 #泰瑞的世界（舊文）@痞客邦

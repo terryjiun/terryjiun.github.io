@@ -2,7 +2,7 @@
 title: 支援 CJK Ext-E 的字型──hanazono
 date: 2017-04-03 10:10:00 +0800
 categories: [字碼與字型]
-tags: [CJK Ext-E, hanazono, HanaMin]
+tags: [CJK, 字型下載]
 ---
 
 #泰瑞的世界（舊文）@痞客邦

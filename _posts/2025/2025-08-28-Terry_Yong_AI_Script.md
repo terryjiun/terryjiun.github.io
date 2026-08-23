@@ -5,8 +5,6 @@ categories: [泰瑞版小小輸入法]
 tags: [小小輸入法, 直通車, AI, Script]
 ---
 
-#泰瑞的世界（舊文）@痞客邦
-
 存放於筆者的【<a href="https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh" target="_blank">Google 雲端硬碟</a>】或【<a href="https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA" target="_blank">OneDrive</a>】的「輸入法相關→輸入法軟體」目錄之下，<br>
 有個檔案名為「<span style="color: red">Terry&#95;Yong&#95;AI&#95;Script.zip</span>」，將其下載並解壓縮（解壓縮密碼：<span style="color: red">yong</span>），<br>
 再儲存到《泰瑞版小小輸入法》的安裝目錄下（即「Terry&#95;Yong」資料夾下），<br>

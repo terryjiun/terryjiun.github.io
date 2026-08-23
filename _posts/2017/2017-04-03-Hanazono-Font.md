@@ -5,8 +5,6 @@ categories: [字碼與字型]
 tags: [CJK, 字型下載]
 ---
 
-#泰瑞的世界（舊文）@痞客邦
-
 Unicode CJK Ext-E 字元集已經在 2015 年發布，<br>
 微軟（Microsoft）本來可以在 2016 年發布的 Windows 10 週年更新版（Version 1607）將新細明體升級為支援 CJK Ext-E，<br>
 不過微軟並沒有這麼做！<br>

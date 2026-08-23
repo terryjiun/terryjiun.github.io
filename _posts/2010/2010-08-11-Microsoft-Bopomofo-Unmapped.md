@@ -5,8 +5,6 @@ categories: [輸入法]
 tags: [輸入法, 注音]
 ---
 
-#泰瑞的世界（舊文）@痞客邦
-
 測試目的：瞭解微軟注音輸入法對 CJK 字元集的支援程度<br>
 測試環境：Windows XP Professional with Service Pack 3 繁體中文版<br>
 （沒有安裝 Office，所以它只包含傳統注音和新注音 2002）<br>

@@ -5,7 +5,7 @@ categories: [政治評論]
 tags: [正體中文, 簡繁轉換]
 ---
 
-[共匪字與共匪廢字各有優缺點](ttps://zh.wikipedia.org/wiki/漢字簡化爭論){:target="_blank"}，<br>
+[共匪字與共匪廢字各有優缺點](https://zh.wikipedia.org/wiki/漢字簡化爭論){:target="_blank"}，<br>
 不必龜笑鼈沒尾，鼈笑龜頭短。<br>
 （不過，維基百科上列舉的支持共匪字的理由有些都很牽強，<br>
 有些則是必須在特定環境下才較具優勢，姑且看看就好）<br>

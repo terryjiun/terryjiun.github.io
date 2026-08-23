@@ -5,8 +5,6 @@ categories: [泰瑞版小小輸入法]
 tags: [Terry_Yong, 碼表更新]
 ---
 
-#泰瑞君的部落格（新文）@GitHub
-
 最新版本的泰瑞版小小輸入法，以後會放在這個 Google Drive 路徑之下：<br>
 <a href="https://drive.google.com/drive/folders/1a6KmtMCETshYAzzX6RzHZ6m5s00IijEL" target="_blank">https://drive.google.com/drive/folders/1a6KmtMCETshYAzzX6RzHZ6m5s00IijEL</a><br>
 （會保留一些相對較舊的版本，檔名會夾帶更新日期，請下載自己所需的，解壓縮密碼都是：yong）<br>

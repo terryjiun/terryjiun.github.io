@@ -5,8 +5,6 @@ categories: [字碼與字型]
 tags: [字型, CJK]
 ---
 
-#泰瑞的世界（舊文）@痞客邦
-
 筆者之前曾經發布過《Windows 8 內建的新細明體已經支援 CJK Ext-C/D 字元集了！》一文，<br>
 當時 Windows 8 內建的新細明體僅支援到 CJK Ext-D 的字元，而就連後來初上市的 Windows 10 也是如此。<br>
 但是近日筆者發現在未額外安裝字型的 Windows 10、Windows 11 環境下，<br>

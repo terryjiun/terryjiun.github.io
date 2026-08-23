@@ -125,7 +125,7 @@ Windows NT 4.0/2000/XP/Vista/7（及以後的 Windows 版本）都支援這個�
   </iframe>
 </div>
 補充：<br>
-雖然，到這個「漢字碼表」（網址：https://www.chinesecj.com/unihan.php）<br>
+雖然，到這個「漢字碼表」（網址：[https://www.chinesecj.com/unihan.php](https://www.chinesecj.com/unihan.php){:target="_blank"}）<br>
 的網頁就能查到 70,195 個漢字，<br>
 但取名時還是儘量用 Big5 裡那 13,060 個漢字，別給自己或小孩添麻煩，<br>
 因為目前各機關學校，乃至於各公司行號的一些系統，<br>

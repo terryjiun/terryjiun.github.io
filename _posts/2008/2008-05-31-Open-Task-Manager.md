@@ -5,8 +5,6 @@ categories: [作業系統]
 tags: [Windows, 工作管理員]
 ---
 
-#泰瑞的世界（舊文）@痞客邦
-
 很多人都知道在 Windows 作業系統中，<br>
 可以利用 Ctrl + Alt + Del 叫出「Windows 工作管理員」。<br>
 但是在 Windows Server 2003、Windows Vista、Windows Server 2008 環境下，<br>

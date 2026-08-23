@@ -5,8 +5,6 @@ categories: [休閒娛樂]
 tags: [特殊字元, 新奇有趣]
 ---
 
-#泰瑞的世界（舊文）@痞客邦
-
 ![𠀗](https://www.cns11643.gov.tw/char/kai/64/20017.png)　![𠀖](https://www.cns11643.gov.tw/char/kai/64/20016.png)<br>
 共匪被砍了右腳 V.S. 共匪被砍了左腳<br>
 <br>

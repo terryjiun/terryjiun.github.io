@@ -21,10 +21,10 @@ h1, h2, h3, h4, h5, h6,
 :root,
 [data-bs-theme="light"],
 html[data-mode="light"] {
-  --heading-color: #000000;
-  --text-color: #000000;
-  --text-muted-color: rgb(0 0 0 / 0.75);
-  --post-list-text-color: rgb(0 0 0 / 0.75);
+  --heading-color: #000000 !important;
+  --text-color: #000000 !important;
+  --text-muted-color: rgb(0 0 0 / 0.75) !important;
+  --post-list-text-color: rgb(0 0 0 / 0.75) !important;
 }
 
 body {

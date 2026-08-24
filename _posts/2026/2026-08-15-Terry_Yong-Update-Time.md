@@ -2,7 +2,7 @@
 title: 關於「泰瑞版小小輸入法」的更新頻率
 date: 2026-08-15 10:10:00 +0800
 categories: [泰瑞版小小輸入法]
-tags: [Terry_Yong, 碼表更新]
+tags: [Terry_Yong, 碼表更新, 小小更新]
 ---
 
 最新版本的泰瑞版小小輸入法，以後會放在這個 Google Drive 路徑之下：<br>

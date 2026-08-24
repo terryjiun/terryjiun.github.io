@@ -2,7 +2,7 @@
 title: 分享一些利用AI產生的JScript及VBScript，並說明小小輸入法如何調用它們
 date: 2025-08-28 10:10:00 +0800
 categories: [泰瑞版小小輸入法]
-tags: [小小輸入法, 直通車, AI, Script]
+tags: [Terry_Yong, 小小直通車, AI, Script]
 ---
 
 存放於筆者的【<a href="https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh" target="_blank">Google 雲端硬碟</a>】或【<a href="https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA" target="_blank">OneDrive</a>】的「輸入法相關→輸入法軟體」目錄之下，<br>

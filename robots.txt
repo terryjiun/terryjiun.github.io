@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://terryjiun.github.io/sitemap.xml

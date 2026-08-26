@@ -73,7 +73,8 @@ Windows Vista/Server 2008 使用方式請參考第一篇回應，<br>
 　（它提供的正字與異體字，共 106,230 字，比全字庫提供的字數還多！）<br>
 　將該字的圖片複製後，貼到文章或插入網頁裡即可使用（只是它的異體字是用手寫的，較不美觀）。<br>
 　但如果您的文章是不需要讓閱讀的人編輯的檔案，<br>
-　您可以安裝 doPDF 這套軟體，然後用列印的方式（列印時選擇 doPDF 的虛擬印表機）將檔案轉為 PDF 檔，<br>
+　您可以安裝 doPDF 這套軟體，<br>
+  然後用列印的方式（列印時選擇 doPDF 的虛擬印表機）將檔案轉為 PDF 檔，<br>
 　這樣即使閱讀的人的造字資料區是空的或與你的不同，<br>
 　也不必擔心會顯示為空白或別的字，<br>
 　因為 PDF 可以內嵌這些字的字型，使得檔案原貌不會隨不同電腦而有不同的面貌。<br>
@@ -84,7 +85,6 @@ Windows Vista/Server 2008 使用方式請參考第一篇回應，<br>
 但因為 Vista 和 Server 2008 的輸入法是不容許更改的，<br>
 所以想要打出這些轉入的字的話，<br>
 請參考這個部落格的「移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008」這篇文章<br>
-（網址：[http://terryhung.pixnet.net/blog/post/18821238](http://terryhung.pixnet.net/blog/post/18821238){:target="_blank"}），<br>
 移植 Windows XP 的倉頡輸入法到 Vista/Server 2008 上使用即可。<br>
 建議先移植輸入法，再轉入想要的字<br>
 （順序顛倒也可以，我在 VMware 上的 Vista 測試是 OK 的！）<br>

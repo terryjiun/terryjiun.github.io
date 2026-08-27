@@ -13,7 +13,7 @@ tags: [Windows, Big5, 符號]
 她這個方式除了在 msn、Yahoo 即時通、Word 裡行不通（會打出別的符號）外，<br>
 在 IE、記事本、遊戲裡都可以正常使用。<br>
 這個網址有各個符號與數字的對應表：<br>
-[https://www.ifreesite.com/alt.htm](https://www.ifreesite.com/alt.htm){:target="_blank"}
+[https://www.ifreesite.com/alt.htm](https://www.ifreesite.com/alt.htm){:target="_blank"}<br>
 將內碼表（[https://www.ifreesite.com/big5.htm](https://www.ifreesite.com/big5.htm){:target="_blank"}）裡的內碼轉換為 ASCII 碼十進位，<br>
 即可得出以上對應的數字，<br>
 轉換的方式可以利用 Excel 的函數，<br>

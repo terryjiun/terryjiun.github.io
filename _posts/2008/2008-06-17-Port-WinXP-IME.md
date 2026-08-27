@@ -38,7 +38,6 @@ Windows Vista/Server 2008 的倉頡、速成、注音，仍然保留「反查組
 特別做成一個壓縮檔以方便網友們使用，<br>
 下載網址是：<br>
 [https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP_IME.zip](https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP_IME.zip){:target="_blank"}<br>
-<br>
 ## 使用方式
 1.按照自己的需求，<br>
 　將〝所需〞輸入法資料夾內的檔案複製至 C:\Windows\System32，<br>
@@ -48,16 +47,17 @@ Windows Vista/Server 2008 的倉頡、速成、注音，仍然保留「反查組
 2.複製「uniime.dll」至 C:\Windows\System32<br>
 　說明：如果您想使用「通用輸入法編輯工具」，請將「miniime.tpl」一併複製至 C:\Windows\System32<br>
 3.執行〝所需〞輸入法資料夾內的 &#42;.reg，匯入機碼至系統組態登錄。<br>
-　說明一：筆者將 &#42;.reg 內的輸入法名稱皆以「中文 (繁體) - 大易 (XP)」格式命名，<br>
-　　　　　網友如欲修改可先在 &#42;.reg 檔案上按右鍵，選「編輯」，修改並存檔後再匯入，<br>
-　　　　　如已匯入者，可利用 regedit 指令叫出「登錄編輯程式」，<br>
-　　　　　依 &#42;.reg 檔內的路徑找到資料後再自行修改。<br>
-　說明二：有些網路文章將 &#42;.reg 檔內的「"Layout Text"」及「"Layout Display Name"」後面的文字設為同樣，<br>
-　　　　　筆者則是將「"Layout Display Name"」後面的文字參考搜尋到的「機碼對應表.txt」做不同的設定。<br>
+　說明一：<br>
+　　筆者將 &#42;.reg 內的輸入法名稱皆以「中文 (繁體) - 大易 (XP)」格式命名，<br>
+　　網友如欲修改可先在 &#42;.reg 檔案上按右鍵，選「編輯」，修改並存檔後再匯入，<br>
+　　如已匯入者，可利用 regedit 指令叫出「登錄編輯程式」，<br>
+　　依 &#42;.reg 檔內的路徑找到資料後再自行修改。<br>
+　說明二：<br>
+　　有些網路文章將 &#42;.reg 檔內的「"Layout Text"」及「"Layout Display Name"」後面的文字設為同樣，<br>
+　　筆者則是將「"Layout Display Name"」後面的文字參考搜尋到的「機碼對應表.txt」做不同的設定。<br>
 4.開啟「控制台／地區及語音選項」，點選「鍵盤及語言」頁籤內的「變更鍵盤」按鈕<br>
 　（或直接於〝語音列〞上按右鍵選「設定值」），<br>
 　即可「新增」匯入的輸入法。<br>
-<br>
 ## 注意事項
 1.欲使用「相關字詞編輯工具」，可直接執行「Lctool.exe」，<br>
 　修改並存檔後即可在移植的輸入法上產生作用，但內建的新版輸入法的相關字詞並不會隨之改變。<br>
@@ -66,7 +66,6 @@ Windows Vista/Server 2008 的倉頡、速成、注音，仍然保留「反查組
 4.在 Windows 7/Vista/Server 2008 的「使用者帳戶控制（UAC）」開啟的情況下，<br>
 　可能會造成移植過程中的困擾，<br>
 　建議先至「控制台／使用者帳戶」關閉該功能。<br>
-<br>
 ## 特別說明
 對 64 位元版 Windows 7/Vista/Server 2008 的特別說明：<br>
 1.Windows XP x64，只有英文版，沒有繁體中文版，<br>
@@ -88,6 +87,6 @@ Windows Vista/Server 2008 的倉頡、速成、注音，仍然保留「反查組
 　（32 位元 Windows 環境下沒有這個問題）。<br>
 5.無論是用 WinXP 或 Win2003 x64 的「相關字詞編輯工具」（Lctool.exe）編修後的相關字詞，<br>
 　都能正常在 32 位元及 64 位元的應用程式環境下使用。<br>
-6.因為取得各種輸入法對照表並非難事（可上 [gcin](https://cle.linux.org.tw/trac/wiki/GcinTables){:target="_blank"} 網站下載後加以編修），<br>
+6.因為取得各種輸入法對照表並非難事（可上 [gcin](https://hyperrate.com/dir.php?eid=67){:target="_blank"} 網站下載後加以編修），<br>
 　所以使用第 3 點的方式相較之下較無缺點，<br>
 　只是對照表裡最好不要有 CJK Ext-B 的字元，以免候選字方塊內出現「|  |」。<br>

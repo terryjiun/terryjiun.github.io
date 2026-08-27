@@ -5,7 +5,7 @@ categories: [輸入法]
 tags: [Windows, 通用輸入法編輯工具]
 ---
 
-◎ 緣起：<br>
+## 緣起
 Windows 7/Vista/Server 2008 內建的中文輸入法，<br>
 改良了倉頡、速成、注音三種輸入法，<br>
 除了使其具備「輸入法整合器」（可支援符號及手寫輸入）之外，<br>
@@ -37,9 +37,9 @@ Windows Vista/Server 2008 的倉頡、速成、注音，仍然保留「反查組
 我整理並擷取 Windows XP Professional with SP3 的檔案後，<br>
 特別做成一個壓縮檔以方便網友們使用，<br>
 下載網址是：<br>
-https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP&#95;IME.zip<br>
+[https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP_IME.zip](https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP_IME.zip){:target="_blank"}<br>
 <br>
-◎ 使用方式：<br>
+## 使用方式
 1.按照自己的需求，<br>
 　將〝所需〞輸入法資料夾內的檔案複製至 C:\Windows\System32，<br>
 　說明一：為避免檔案覆蓋問題，一些檔名已經先被修改過。<br>
@@ -58,8 +58,7 @@ https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP&#95;IME.zip<br>
 　（或直接於〝語音列〞上按右鍵選「設定值」），<br>
 　即可「新增」匯入的輸入法。<br>
 <br>
-<br>
-◎ 注意事項：<br>
+## 注意事項
 1.欲使用「相關字詞編輯工具」，可直接執行「Lctool.exe」，<br>
 　修改並存檔後即可在移植的輸入法上產生作用，但內建的新版輸入法的相關字詞並不會隨之改變。<br>
 2.欲使用「通用輸入法編輯工具」，可直接執行「Uimetool.exe」。<br>
@@ -68,8 +67,8 @@ https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP&#95;IME.zip<br>
 　可能會造成移植過程中的困擾，<br>
 　建議先至「控制台／使用者帳戶」關閉該功能。<br>
 <br>
-<br>
-◎ 對 64 位元版 Windows 7/Vista/Server 2008 的特別說明：<br>
+## 特別說明
+對 64 位元版 Windows 7/Vista/Server 2008 的特別說明：<br>
 1.Windows XP x64，只有英文版，沒有繁體中文版，<br>
 　英文版本身沒有中文輸入法的相關檔案，必須加裝繁體中文語言套件才會有。<br>
 　但即使加裝繁體中文語言套件後，仍然少了「Lctool.exe」、「Uimetool.exe」這兩個檔案。<br>
@@ -89,6 +88,6 @@ https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP&#95;IME.zip<br>
 　（32 位元 Windows 環境下沒有這個問題）。<br>
 5.無論是用 WinXP 或 Win2003 x64 的「相關字詞編輯工具」（Lctool.exe）編修後的相關字詞，<br>
 　都能正常在 32 位元及 64 位元的應用程式環境下使用。<br>
-6.因為取得各種輸入法對照表並非難事（可上 gcin 網站下載後加以編修），<br>
+6.因為取得各種輸入法對照表並非難事（可上 [gcin](https://cle.linux.org.tw/trac/wiki/GcinTables){:target="_blank"} 網站下載後加以編修），<br>
 　所以使用第 3 點的方式相較之下較無缺點，<br>
 　只是對照表裡最好不要有 CJK Ext-B 的字元，以免候選字方塊內出現「|  |」。<br>

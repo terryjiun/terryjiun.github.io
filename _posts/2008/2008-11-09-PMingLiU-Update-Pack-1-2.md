@@ -20,7 +20,7 @@ tags: [Windows, 新細明體, 字型下載]
 在安裝精靈的最後一個步驟（也就是可以點選「關閉」按鈕時的前一個畫面），<br>
 安裝精靈會提示你下列訊息：<br>
 <br>
-<div markdown="1" style="background-color: #FAE5CB; padding: 1.5rem; border-radius: 10px; border-left: 5px solid #E6B17A; margin: 1.5rem 0;">
+<div markdown="1" style="background-color: #FAE5CB; padding: 1.2rem 1.5rem; border-radius: 8px; margin: 1.5rem 0;">
 新細明體字型更新版本<br>
 <br>
 此 Readme 檔, readme.rtf，亦安裝在應用程式目錄 (預設是 \Program Files\MingLiu Font Update 目錄)。在開始使用此字型更新版本之前，請詳細閱讀以下的版本資訊。<br>

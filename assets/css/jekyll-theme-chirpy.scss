@@ -2,16 +2,19 @@
 ---
 @use 'main {%- if jekyll.environment == 'production' -%} .bundle {%- endif -%}';
 
+/* 字型設定 */
 body {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
 }
 
+/* 標題字型 */
 h1, h2, h3, h4, h5, h6,
 .site-title,
 #topbar-title {
   font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
 }
 
+/* 字體顏色 */
 :root,
 [data-bs-theme="light"],
 html[data-mode="light"] {
@@ -21,32 +24,38 @@ html[data-mode="light"] {
   --post-list-text-color: rgb(0 0 0 / 0.75) !important;
 }
 
+/* 文章背景顏色 */
 body {
   background: #F3F4F6 !important;
   background-color: #F3F4F6 !important;
 }
 
+/* 頁腳背景顏色 */
 footer {
   background: #F3F4F6 !important;
   background-color: #F3F4F6 !important;
 }
 
+/* 左側背景顏色 */
 #sidebar {
   background: #F8F4F1 !important;
   background-color: #F8F4F1 !important;
 }
 
+/* 首頁文章摘要背景顏色 */
 #post-list .card-text.content,
 #post-list .card-text.content p {
   color: var(--post-list-text-color) !important;
 }
 
+/* 右側背景顏色 */
 #panel-wrapper {
   background: #E6F0FA !important;
   border-radius: 0.5rem !important;
   padding: 1rem 0.75rem !important;
 }
 
+/* 右側展開文章摘要(目錄)背景顏色 */
 .toc-border-cover,
 #toc-wrapper::before,
 #toc-wrapper::after {
@@ -56,12 +65,14 @@ footer {
   margin: 0 !important;
 }
 
+/* 上方(麵包屑)背景顏色 */
 #topbar-wrapper,
 #topbar {
   background: #FAF4E3 !important;
   background-color: #FAF4E3 !important;
 }
 
+/* 搜尋列背景顏色 */
 #search-wrapper,
 #search-input,
 #search {
@@ -69,12 +80,14 @@ footer {
   background-color: #F0E6F6 !important;
 }
 
+/* 搜尋列背景顏色(輸入時) */
 #search-input:focus,
 #search:focus {
   background: #F0E6F6 !important;
   background-color: #F0E6F6 !important;
 }
 
+/* 分隔線顏色 */
 .content hr,
 article hr,
 hr {
@@ -86,3 +99,23 @@ hr {
   background: transparent !important;
 }
 
+/* 提示窗字型、字體、背景顏色 */
+#notification {
+  background-color: #FCE5CD !important;
+  font-family: 'Microsoft JhengHei', 'SF Pro TC', 'PingFang TC', Arial, sans-serif !important;
+  font-size: 1.2rem !important;
+  color: #333333 !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+#notification .toast-body {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  color: #333333 !important;
+}
+#notification .btn-primary {
+  font-size: 0.9rem !important;
+  font-family: inherit !important;
+  /* background-color: #980000 !important; */
+  /* border-color: #980000 !important; */
+}

@@ -18,9 +18,9 @@ tags: [Windows, 新細明體, 字型下載]
 重新開機後就完成新細明體更新了！<br>
 <br>
 在安裝精靈的最後一個步驟（也就是可以點選「關閉」按鈕時的前一個畫面），<br>
-安裝精靈會提示你下列訊息：
-<hr>
-新細明體字型更新版本<br>
+安裝精靈會提示你下列訊息：<br>
+<br>
+<span style="background-color: #fae5cb;">新細明體字型更新版本<br>
 <br>
 此 Readme 檔, readme.rtf，亦安裝在應用程式目錄 (預設是 \Program Files\MingLiu Font Update 目錄)。在開始使用此字型更新版本之前，請詳細閱讀以下的版本資訊。<br>
 <br>
@@ -40,8 +40,8 @@ tags: [Windows, 新細明體, 字型下載]
 　　4-4. 如果安裝本更新檔案，您的系統便可升級到支援 Unicode 3.1 版，同時可使用到多達 70,195 個繁、簡中文和日、韓的漢字。<br>
 ## 五、輸入法
 　　本更新程式亦會更新傳統注音輸入法和傳統倉頡輸入法，將原始只能輸入 Unicode 2.0 內的中文字或其他漢字，擴充到支援輸入 Extension A的中文字或其他漢字。至於您如欲輸入 Extension B 內的中文字或其他的漢時，可以使用新版的微軟新注音、倉頡輸入法 6.0 版的單碼功能輸入。有關最新的微軟輸入法 ， 請您到 台灣微軟的網站 下載區 下載最新的 Microsoft New IME 6.0 ﹝微軟新注音輸入法、微軟新倉頡輸入法、微軟輸入整合器﹞，網址如下：<br>
-　　https://www.microsoft.com/taiwan/download/CHTdownload.htm。
-<hr>
+　　https://www.microsoft.com/taiwan/download/CHTdownload.htm。</span><br>
+<br>
 微軟將這兩套新的字型做成「新細明體更新套件」這種〝安裝程式〞，<br>
 是為了方便那些不知道怎樣安裝字型的人使用（當然安裝程式還有其他的功用，底下會提到），<br>
 畢竟新細明體一直都是 WinXP 的「系統預設字型」，<br>

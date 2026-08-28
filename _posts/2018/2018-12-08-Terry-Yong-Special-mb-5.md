@@ -23,7 +23,7 @@ tags: [Terry_Yong, 碼表, 倉頡]
 這些正體字與異體字的注音可能都一樣、倉頡碼也類似，因此拆錯字的情況也就很可能會發生。<br>
 <br>
 筆者很喜歡微軟將輸入法候選字以不同顏色標示這一點，如下圖：<br>
-![微軟倉頡候選字顏色](/assets/img/font/PMingLiU-Update-Pack-05.jpg)
+![微軟倉頡候選字顏色](/assets/img/font/PMingLiU-Update-Pack-05.jpg)<br>
 圖中黑色字為 CJK 漢字、綠色字為 CJK Ext-A 漢字、紅色字則為 CJK Ext-B 漢字。<br>
 可惜的是小小輸入法不支援這樣的分色顯示功能！<br>
 但是我們卻可以透過編修碼表的方式來賦予輸入過程有類似的功能，<br>

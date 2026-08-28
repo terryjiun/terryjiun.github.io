@@ -1,13 +1,10 @@
 ---
 ---
+
 @use 'main {%- if jekyll.environment == 'production' -%} .bundle {%- endif -%}';
 
 /* 字型設定 */
-body {
-  font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
-}
-
-/* 標題字型 */
+body,
 h1, h2, h3, h4, h5, h6,
 .site-title,
 #topbar-title {
@@ -24,28 +21,21 @@ html[data-mode="light"] {
   --post-list-text-color: rgb(0 0 0 / 0.75) !important;
 }
 
-/* 文章背景顏色 */
-body {
-  background: #F3F4F6 !important;
-  background-color: #F3F4F6 !important;
+/* 首頁文章預覽背景顏色 */
+#post-list .card-text.content,
+#post-list .card-text.content p {
+  color: var(--post-list-text-color) !important;
 }
 
-/* 頁腳背景顏色 */
+/* 文章及頁腳背景顏色 */
+body,
 footer {
   background: #F3F4F6 !important;
-  background-color: #F3F4F6 !important;
 }
 
 /* 左側背景顏色 */
 #sidebar {
   background: #F8F4F1 !important;
-  background-color: #F8F4F1 !important;
-}
-
-/* 首頁文章摘要背景顏色 */
-#post-list .card-text.content,
-#post-list .card-text.content p {
-  color: var(--post-list-text-color) !important;
 }
 
 /* 右側背景顏色 */
@@ -55,36 +45,26 @@ footer {
   padding: 1rem 0.75rem !important;
 }
 
-/* 右側展開文章摘要(目錄)背景顏色 */
-.toc-border-cover,
-#toc-wrapper::before,
-#toc-wrapper::after {
-  display: none !important;
-  background: none !important;
-  height: 0 !important;
-  margin: 0 !important;
-}
-
 /* 上方(麵包屑)背景顏色 */
 #topbar-wrapper,
 #topbar {
   background: #FAF4E3 !important;
-  background-color: #FAF4E3 !important;
+}
+
+/* 右側文章摘要(目錄)展開時上下漸層(白邊)移除 */
+.toc-border-cover,
+#toc-wrapper::before,
+#toc-wrapper::after {
+  display: none !important;
 }
 
 /* 搜尋列背景顏色 */
 #search-wrapper,
 #search-input,
-#search {
-  background: #F0E6F6 !important;
-  background-color: #F0E6F6 !important;
-}
-
-/* 搜尋列背景顏色(輸入時) */
+#search,
 #search-input:focus,
 #search:focus {
   background: #F0E6F6 !important;
-  background-color: #F0E6F6 !important;
 }
 
 /* 分隔線顏色 */
@@ -93,22 +73,24 @@ article hr,
 hr {
   border: 0 !important;
   border-top: 1px solid #980000 !important;
-  height: 0 !important;
   margin: 2rem 0 !important;
   opacity: 1 !important;
-  background: transparent !important;
 }
 
-/* 更新提示窗字型、字體、背景顏色 */
+/* 更新提示窗字型、字體、背景顏色、按鈕文字顏色 */
 #notification {
   background-color: #D9EAD3 !important;
-  font-family: 'microsoft jhenghei', 'sf pro tc', 'sf pro text', 'pingfang tc', arial, sans-serif !important;
+  font-family: 'Microsoft JhengHei', 'SF Pro TC', 'SF Pro Text', 'PingFang TC', Arial, sans-serif !important;
   font-size: 1rem !important;
   color: #333333 !important;
-    }
+}
 
-#notification .toast-body,
-#notification .btn-primary {
+#notification .toast-body {
   font: inherit !important;
   color: inherit !important;
+}
+
+#notification .btn-primary {
+  font: inherit !important;
+  color: #FFFFFF !important;
 }

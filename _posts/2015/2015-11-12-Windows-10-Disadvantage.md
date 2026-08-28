@@ -7,7 +7,7 @@ tags: [Windows]
 
 與 Windows 8/8.1 相比，有下列缺點：<br>
 01. 在檔案名稱上，按右鍵，選「內容」，勾選「解除封鎖」，再按「套用」後，並不能真正刪除 NTFS Data Streams。<br>
-　　（解決方式請參考【Windows 10 解除封鎖檔案與 AlternateStreamView 程式的應用】一文）<br>
+　　（解決方式請參考【★Windows 10 解除封鎖檔案與 AlternateStreamView 程式的應用】一文）<br>
 02. 「工作列」上的圖示經常會有 Refresh 的現象。<br>
 　　（估計與檔案總管有關，當光碟進片、退片時，工作列會自動重新整理而造成快閃現象，<br>
 　　　OneDrive、Google Drive 進行同步時也可能會造成此種現象）<br>

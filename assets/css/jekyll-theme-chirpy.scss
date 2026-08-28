@@ -99,23 +99,18 @@ hr {
   background: transparent !important;
 }
 
-/* 提示窗字型、字體、背景顏色 */
+/* 更新提示窗字型、字體、背景顏色 */
 #notification {
-  background-color: #FCE5CD !important;
-  font-family: 'Microsoft JhengHei', 'SF Pro TC', 'PingFang TC', Arial, sans-serif !important;
+  background-color: #fce5cd !important;
+  font-family: 'microsoft jhenghei', 'sf pro tc', 'sf pro text', 'pingfang tc', arial, sans-serif !important;
   font-size: 1.2rem !important;
   color: #333333 !important;
   border: none !important;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
 }
-#notification .toast-body {
-  font-size: 1.2rem !important;
-  font-weight: 500 !important;
-  color: #333333 !important;
-}
+
+#notification .toast-body,
 #notification .btn-primary {
-  font-size: 0.9rem !important;
-  font-family: inherit !important;
-  /* background-color: #980000 !important; */
-  /* border-color: #980000 !important; */
+  font: inherit !important;
+  color: inherit !important;
 }

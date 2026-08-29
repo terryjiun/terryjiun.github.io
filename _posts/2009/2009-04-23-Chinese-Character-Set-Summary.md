@@ -27,7 +27,7 @@ tags: [Big5, Unicode, CJK, 新細明體]
 　　所以常常被忽略（微軟倉頡無法打出這些字，泰瑞倉頡已補上這些字的字根）。<br>
 　　這 12 個字被放到兼容區並不是因為和其他字同形或為異體，<br>
 　　而是因為它們只收錄在廠商用字中，但未收錄在官方標準（C-, T-, J-, K-Source）中。<br>
-　　他們有獨立的形、音、義，即「獨一」（Unique），參見：Unicode 5.0，第 412 頁。<br>
+　　他們有獨立的形、音、義，即「獨一」（Unique），參見：[Unicode 5.0，第 412 頁](https://www.unicode.org/versions/Unicode5.0.0/ch12.pdf){:target="_blank"}。<br>
 <br>
 三、Big5 和 Unicode 的字元集合，表列如下：
 

@@ -67,6 +67,14 @@ footer {
   background: #F0E6F6 !important;
 }
 
+/* 首頁文章卡片、內頁相關文章卡片 Hover 背景顏色 */
+#post-list .card-wrapper:hover,
+#related-posts .card-wrapper:hover,
+.card-wrapper.card:hover {
+  background-color: #FFF2CC !important;
+  transition: background-color 0.25s ease;
+}
+
 /* 分隔線顏色 */
 .content hr,
 article hr,

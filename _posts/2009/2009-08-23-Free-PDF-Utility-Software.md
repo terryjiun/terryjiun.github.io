@@ -16,9 +16,9 @@ tags: [免費軟體, 實用工具]
 雖然 Adobe Acrobat 有很多強大的功能，<br>
 但其「主要功能」卻可以被其他免費的軟體所取代。<br>
 這些免費的軟體琳瑯滿目，本文只挑選三款目前我試用後覺得還不錯的軟體。<br>
-其一是 Adobe Reader，它的功能是「瀏覽」PDF 檔；<br>
-其二是 Bullzip PDF Printer，它的功能是「轉換」文件成為 PDF 檔；<br>
-其三是 PDF Split and Merge，它的功能是「合併／分割」PDF 檔。<br>
+其一是 [Adobe Reader](https://get.adobe.com/tw/reader/){:target="_blank"}，它的功能是「瀏覽」PDF 檔；<br>
+其二是 [Bullzip PDF Printer](https://www.bullzip.com/products/pdf/info.php){:target="_blank"}，它的功能是「轉換」文件成為 PDF 檔；<br>
+其三是 [PDF Split and Merge](https://pdfsam.org/downloads/){:target="_blank"}，它的功能是「合併／分割」PDF 檔。<br>
 ## 瀏覽方面
 雖然有人認為 Foxit Reader 比較好用、開啟速度又快，<br>
 但其實 Adobe Reader 9 已經改善了開啟速度，<br>

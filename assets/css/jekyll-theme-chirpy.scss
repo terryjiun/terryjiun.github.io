@@ -67,11 +67,19 @@ footer {
   background: #F0E6F6 !important;
 }
 
-/* 首頁文章卡片、內頁相關文章卡片 Hover 背景顏色 */
-:root,
-[data-bs-theme="light"],
-html[data-mode="light"] {
-  --card-hovor-bg: #FFF2CC !important;
+/* 文章卡片(首頁及內頁相關文章) Hover 背景顏色 */
+.post-preview:hover,
+.card-wrapper:hover .post-preview,
+#post-list .card-wrapper:hover,
+#related-posts .card-wrapper:hover {
+  background-color: #FFF2CC !important;
+}
+
+/* 將文章卡片原本的半透明覆蓋層去除以避免干擾 */
+.post-preview:hover::before,
+.card-wrapper:hover .post-preview::before {
+  opacity: 0 !important;
+  background-color: transparent !important;
 }
 
 /* 分隔線顏色 */

@@ -1,7 +1,7 @@
 ---
 title: 終於找到支援 CJK 及其 Ext-A 字元集的大易輸入法對照表了！
 date: 2011-07-02 10:10:00 +0800
-categories: [字碼與字型]
+categories: [輸入法]
 tags: [大易, 碼表, CJK]
 ---
 

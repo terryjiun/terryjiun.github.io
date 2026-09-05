@@ -22,10 +22,10 @@ tags: [無蝦米, 碼表]
 ※日本漢字模式：切換鍵為「，，Ｊ」，輸入法參考檔為「liu-uni4.tab」<br>
 <br>
 CJK 字元集的 20,902 個漢字，哪些算是日本漢字呢？<br>
-行易公司可能是參考了中華民國[教育部異體字字典](http://dict.variants.moe.edu.tw/){:target="_blank"}附錄索引裡的「[中日韓共用漢字表](https://dict.variants.moe.edu.tw/appendix.jsp?ID=8&ID=0){:target="_blank"}」。<br>
+行易公司可能是參考了中華民國[教育部異體字字典](https://dict.variants.moe.edu.tw/){:target="_blank"}附錄索引裡的「[中日韓共用漢字表](https://dict.variants.moe.edu.tw/appendix.jsp?ID=8&ID=0){:target="_blank"}」。<br>
 <br>
 CJK 字元集的 20,902 個漢字，哪些算是簡體中文呢？<br>
-行易公司可能是參考了偽「中華人民共和國」〝教育部語言文字信息管理司〞的「[簡化字總表](ttps://zh.wikipedia.org/wiki/简化字总表){:target="_blank"}」。<br>
+行易公司可能是參考了偽「中華人民共和國」〝教育部語言文字信息管理司〞的「[簡化字總表](https://zh.wikipedia.org/wiki/简化字总表){:target="_blank"}」。<br>
 <br>
 CJK 字元集的 20,902 個漢字，<br>
 扣除日本漢字、簡體中文後的字元，都算成繁體中文字元，<br>

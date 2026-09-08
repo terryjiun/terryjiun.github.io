@@ -9,7 +9,7 @@ tags: [碼表, 倉頡, 注音, 拼音, 無蝦米]
 <span style="color: blue">以下內容及對應的輸入法對照表（碼表）發布於 2009 年，<br>
 近年來，筆者已將輸入法課題的重心移至「小小輸入法」，<br>
 因此，不再提供 for 「通用輸入法編輯工具」、「奇摩輸入法」、「香草輸入法」版本的對照表，</span><br>
-<span style="color: hotpink">如需取得最新版的對照表，請至【★新版「泰瑞系列中文輸入法對照表」簡介】一文內下載。<br>
+<span style="color: purple">如需取得最新版的對照表，請至【★新版「泰瑞系列中文輸入法對照表」簡介】一文內下載。<br>
 或下載最新版【[泰瑞版小小輸入法](https://terryjiun.github.io/posts/Terry-Yong-CJK-Extension-I/){:target="_blank"}】，</span><br>
 <span style="color: blue">解壓縮後，查看「mb」資料夾下的 txt 檔，即可得到最新版的對照表。<br>
 保留本文的用意是讓一些讀者研究筆者早年發表的輸入法相關文章（重碼字分析）時，有所輔助，特此聲明。</span><br>

@@ -59,7 +59,7 @@ tags: [無蝦米, 輸入法]
 　　那麼電腦上只要裝一套輸入法程式，<br>
 　　就可以讓學習不同代倉頡的人同時使用。<br>
 　　有興趣瞭解第三代、第五代在上述 13,060 個漢字裡有什麼差異的人，<br>
-　　可以下載★這個 Excel 檔，配合[維基百科上關於三代和五代差異的說明](https://zh.wikibooks.org/wiki/倉頡輸入法/版本差異){:target="_blank"}，然後自行研究。<br>
+　　可以下載[這個 Excel 檔](https://www.mediafire.com/file/hmf1m1ujahausb4/CJ3-CJ5.zip){:target="_blank"}，配合[維基百科上關於三代和五代差異的說明](https://zh.wikibooks.org/wiki/倉頡輸入法/版本差異){:target="_blank"}，然後自行研究。<br>
 二、造字問題可以轉成 PDF 檔處理，不會有拿到另一台電腦列印時，<br>
 　　還需要在另一台電腦造字、修改內碼的問題。<br>
 三、漢字排序問題：<br>

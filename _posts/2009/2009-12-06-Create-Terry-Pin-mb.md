@@ -21,7 +21,8 @@ tags: [CJK, 拼音, 碼表]
 「˙」+「空白」取代為「5」+「Tab 字元」；<br>
 最後再將「空白」取代為「1」+「Tab 字元」（或單獨的「Tab 字元」）就可以了！<br>
 <br>
-如果沒有工具程式輔助的話，就要依這個網頁（http://www.homeinmists.com/shuowen/zhuying.html）上的說明，<br>
+如果沒有工具程式輔助的話，<br>
+就要依這個網頁（http://www.homeinmists.com/shuowen/zhuying.html）上的說明，<br>
 將對照表的「&#42;ㄨㄥ」取代成「&#42;ong」<br>
 （「&#42;」代表有聲母，如「ㄏㄨㄥ」就取代成「hong」、「ㄓㄨㄥ」就取代成「zhong」；<br>
 「&#42;」從「ㄅ」到「ㄙ」都算，這類的規則要在第一階段轉換），<br>

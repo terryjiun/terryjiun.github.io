@@ -151,4 +151,8 @@ gcin 網站是用 CNS 全字庫的第三代倉頡組字字根來補完，<br>
 <br>
 歡迎下載「泰瑞系列中文輸入法對照表」回去使用，<br>
 並修改成另一個符合您使用習慣的對照表版本。<br>
-修改的方式可以參考壓縮檔內的 ReadMe.txt。<br>
+修改的方式可以參考壓縮檔內的 ReadMe.txt。
+<hr>
+補充：<br>
+關於 ANSI 字元的說明，各位可以參考這個簡體網頁：<br>
+http://www.regexlab.com/zh/encoding.htm

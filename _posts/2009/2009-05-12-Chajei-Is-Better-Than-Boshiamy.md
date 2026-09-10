@@ -127,7 +127,7 @@ Big5 碼的漢字是由 5,401 個「常用字」，和 7,652 個「次常用字�
 後記：<br>
 沒想到這篇文章在 2009 年 5 月 28 日經過「[冷！很低調](https://www.plurk.com/esouxcon){:target="_blank"}」在他的 Plurk 宣傳後，<br>
 竟然在文章標題旁出現了這個圖案：<br>
-![本日熱門](/assets/img/other/daily-hot.gif){: .left }<br>
+![本日熱門](/assets/img/other/daily-hot.gif)<br>
 （痞客邦的部落格才有，無名小站的沒有！<br>
 「冷！很低調」的網址是從痞客邦管理後台的「拜訪紀錄」追蹤來的）<br>
 真是讓人驚喜！（我的 Blog 的單日瀏覽人次也因此創下了歷史新高）<br>

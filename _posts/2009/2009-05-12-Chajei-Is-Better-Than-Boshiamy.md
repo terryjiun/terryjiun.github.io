@@ -123,11 +123,10 @@ Big5 碼的漢字是由 5,401 個「常用字」，和 7,652 個「次常用字�
 <br>
 對於想學嘸蝦米、大易、行列的人，<br>
 我只能對你們說：先看看我的文章，再來考慮吧！<br>
-<br>
+<hr>
 後記：<br>
-<br>
 沒想到這篇文章在 2009 年 5 月 28 日經過「[冷！很低調](https://www.plurk.com/esouxcon){:target="_blank"}」在他的 Plurk 宣傳後，<br>
-竟然在文章標題旁出現了「<img style="vertical-align: middle;" src="/assets/img/other/daily-hot.gif" alt="本日熱門" width="70" height="14">」這個圖案！<br>
+竟然在文章標題旁出現了「<img src="/assets/img/other/daily-hot.gif" alt="本日熱門" width="70" height="14">」這個圖案！<br>
 （痞客邦的部落格才有，無名小站的沒有！<br>
 「冷！很低調」的網址是從痞客邦管理後台的「拜訪紀錄」追蹤來的）<br>
 真是讓人驚喜！（我的 Blog 的單日瀏覽人次也因此創下了歷史新高）<br>

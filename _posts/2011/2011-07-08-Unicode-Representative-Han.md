@@ -26,7 +26,7 @@ tags: [Unicode, CJK]
 <b><span style="color: blue">𫢋（U+2B88B）：CJK Ext-</span><span style="color: red">E</span></b><br>
 2015年被收錄於 CJK Ext-E（中日韓統一表意文字擴展E區）字元集<br>
 <br>
-想要測試系統是否完整支援 Unicode，可以用這 7 個字測試。</span><br>
+想要測試系統是否完整支援 Unicode，可以用這 7 個字測試。<br>
 前 5 個字分別是「亻」字旁加上「兒、弟、兄、父、師」，<br>
 倒數第 2 個字則是「人」字下面加上「一君」，<br>
 最後 1 個字則是「亻」字旁加上「天」，<br>

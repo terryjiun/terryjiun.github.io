@@ -2,7 +2,7 @@
 title: 讓 Windows 7 專業版「文字轉換語音」可以選擇「zh-TW HanHan」語音
 date: 2017-04-05 10:10:00 +0800
 categories: [作業系統]
-tags: [Windows, 實用工具]
+tags: [Windows, 實用工具, 小小特殊功能, 小小設定]
 ---
 
 ## 前言
@@ -20,7 +20,7 @@ tags: [Windows, 實用工具]
 於是筆者搜尋並試驗了一些方法和軟體，後來用英文搜尋並找到【[這一篇文章](https://superuser.com/questions/590779/how-to-install-more-voices-to-windows-speech){:target="_blank"}】，終於解決了筆者的問題！<br>
 以下就將筆者的試驗結果寫成教學文件，避免有需要的使用者再走冤枉路。
 
-##教學指南
+## 教學指南
 
 32 位元版 Windows 7（x86 版）只要下載並依序執行下列三個檔案：<br>
 1.[SpeechPlatformRuntime&#95;x86.msi](https://www.mediafire.com/file/79mn57j6azbjqxt/SpeechPlatformRuntime_x86.msi){:target="_blank"}<br>

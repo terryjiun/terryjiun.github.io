@@ -39,7 +39,7 @@ Google 全詞庫版的「組字字根 V.S. 詞組」條目共 29 萬餘條）<br
 3.如果是 Windows Vista、Server 2008 的使用者，<br>
 　因為 Windows 並無內建「通用輸入法編輯工具」，<br>
 　所以請依照這篇文章──<br>
-　「[移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008](https://terryjiun.github.io/posts/Port-WinXP-IME/){:target="_blank"}」<br>
+　「[移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008](https://terryjiun.github.io/posts/Port-WinXP-IME-1/){:target="_blank"}」<br>
 　的指示，下載：[https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP_IME.zip](https://www.mediafire.com/file/8ve8veq1wfe87bq/WinXP_IME.zip){:target="_blank"}<br>
 　解壓縮後，將「miniime.tpl」、「Uimetool.exe」、「uniime.dll」<br>
 　複製到「C:\Windows\System32」，並執行「Uimetool.exe」，<br>

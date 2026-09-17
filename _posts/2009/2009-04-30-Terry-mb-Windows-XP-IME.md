@@ -28,7 +28,7 @@ tags: [碼表, 通用輸入法編輯工具, 輸入法程式, Windows]
 　無法借助 Vista 內建的注音輸入法軟體來反查注音。<br>
 　（「在 Vista 裡安裝 XP 性質的注音輸入法軟體」的方式，<br>
 　請參考我寫的另一篇文章：<br>
-　《★移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008》）<br>
+　《[移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008](https://terryjiun.github.io/posts/Port-WinXP-IME-1/){:target="_blank"}》）<br>
 2.「<span style="color: purple">不使用浮動組字視窗</span>」：勾選或不勾選，都可以正常使用。<br>
 3.「<span style="color: purple">只顯示BIG5字集</span>」：<br>
 　勾選後，就不會顯示 CJK 裡的「非 BIG5 碼」字元（如「煊」、「堃」），<br>

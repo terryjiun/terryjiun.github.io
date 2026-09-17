@@ -84,7 +84,7 @@ Windows Vista/Server 2008 使用方式請參考第一篇回應，<br>
 以上所說的「造字轉入」方式適用於 Windows Vista 和 Server 2008。<br>
 但因為 Vista 和 Server 2008 的輸入法是不容許更改的，<br>
 所以想要打出這些轉入的字的話，<br>
-請參考這個部落格的「移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008」這篇文章<br>
+請參考這個部落格的「[移植 Windows XP 內建中文輸入法至 Windows Vista/Server 2008](https://terryjiun.github.io/posts/Port-WinXP-IME-1/){:target="_blank"}」這篇文章<br>
 移植 Windows XP 的倉頡輸入法到 Vista/Server 2008 上使用即可。<br>
 建議先移植輸入法，再轉入想要的字<br>
 （順序顛倒也可以，我在 VMware 上的 Vista 測試是 OK 的！）<br>

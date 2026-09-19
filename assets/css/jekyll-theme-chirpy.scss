@@ -109,3 +109,16 @@ hr {
   font: inherit !important;
   color: #FFFFFF !important;
 }
+
+/* 副標題多行時不與選單重疊 */
+#sidebar .profile-wrapper {
+  margin-bottom: 1.5rem !important;
+}
+
+#sidebar .site-subtitle {
+  line-height: 1.4 !important;
+  white-space: normal !important;
+  word-break: break-word;
+  margin-bottom: 0.75rem !important;
+  font-size: 0.9rem;
+}

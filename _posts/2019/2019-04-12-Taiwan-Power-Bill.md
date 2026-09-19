@@ -5,7 +5,7 @@ categories: [財經企管]
 tags: [實用工具]
 ---
 
-<b>針對2023年4月1日起實施的新電價，請使用下列 Google 線上試算表計算：<br>
+針對2023年4月1日起實施的新電價，請使用下列 Google 線上試算表計算：<br>
 2025年10月1日起實施之電價線上試算表：<br>
 [https://docs.google.com/spreadsheets/d/1YCA_NB0_xFHuI5ITki_h2tFX_TydizfnnnaddyzWXAg/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1YCA_NB0_xFHuI5ITki_h2tFX_TydizfnnnaddyzWXAg/edit?usp=sharing){:target="_blank"}<br>
 2024年4月1日起實施之電價線上試算表：<br>
@@ -17,7 +17,7 @@ tags: [實用工具]
 請勿要求存取權！</span>不然筆者將公告違規者的 GMail！<br>
 本文所述新、舊電價計算原理相同，有興趣的網友仍可參考下文，惟筆者自製之 Excel 檔已不再更新。<br>
 <hr>
-<span style="color: fuchsia">本行(列)以下內容係針對2018年4月1日至2022年6月30日實施的舊電價進行分析、設計，無興趣之讀者可自行略過！</span></b><br>
+<span style="color: fuchsia">本行(列)以下內容係針對2018年4月1日至2022年6月30日實施的舊電價進行分析、設計，無興趣之讀者可自行略過！</span><br>
 <br>
 對台灣電力公司公告的「電價表」有興趣的讀者，可以先連結至下列網頁查看：<br>
 [https://www.taipower.com.tw/2289/2290/46940/46945/normalPost](https://www.taipower.com.tw/2289/2290/46940/46945/normalPost){:target="_blank"}<br>

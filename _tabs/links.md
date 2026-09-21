@@ -4,15 +4,15 @@ order: 5
 ---
 
 ## 泰瑞的連結
-- [聯絡泰瑞：terryhorng@hotmail.com](mailto:terryhorng@hotmail.com)
-- [泰瑞的世界@痞客邦](https://terryhung.pixnet.net/blog){:target="_blank"}
-- [輸入法檔案@Google](https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh){:target="_blank"}
-- [輸入法檔案@OneDrive](https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA){:target="_blank"}
+- 寫信聯絡泰瑞：[terryhorng@hotmail.com](mailto:terryhorng@hotmail.com)
+- 痞客邦平台：[泰瑞的世界](https://terryhung.pixnet.net/blog){:target="_blank"}
+- 泰瑞的輸入法檔案：[Google Drive](https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh){:target="_blank"}
+- 泰瑞的輸入法檔案：[OneDrive](https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA){:target="_blank"}
 
 ## 小小輸入法
 - [小小輸入法論壇](https://yong.dgod.net/){:target="_blank"}
-- [小小輸入法下載](https://yongim.ysepan.com/){:target="_blank"}
-　(可先下載最新版本，再通過軟體自帶的更新功能更新到最新測試版本)
+- [小小輸入法下載](https://yongim.ysepan.com/){:target="_blank"}<br>
+　　　(可先下載最新版本，再通過軟體自帶的更新功能更新到最新測試版本)
 
 ## 推薦的連結
 - [全字庫](https://www.cns11643.gov.tw/){:target="_blank"}

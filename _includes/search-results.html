@@ -1,0 +1,15 @@
+<!-- The Search results -->
+<div id="search-result-wrapper" class="d-flex justify-content-center d-none">
+  <div class="col-11 content">
+    <div id="search-hints">
+      {% include_cached trending-tags.html lang=include.lang %}
+    </div>
+
+    <div id="search-results" class="d-flex flex-wrap justify-content-center text-muted mt-3"></div>
+
+    <!-- 有結果時才會顯示 -->
+    <p id="search-limit-tip" class="text-center text-muted mt-3 mb-0" style="font-size: 0.9rem; display: none;">
+      搜尋結果最多顯示 100 筆
+    </p>
+  </div>
+</div>

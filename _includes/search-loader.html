@@ -44,29 +44,6 @@
             return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
           }
         }
-      },
-      success: function() {
-        const resultsContainer = document.getElementById('search-results');
-        const tip = document.getElementById('search-limit-tip');
-        if (!resultsContainer || !tip) return;
-
-        const updateTip = () => {
-          // 有搜尋到文章才顯示提示
-          const hasResults = resultsContainer.querySelector('article');
-          tip.style.display = hasResults ? 'block' : 'none';
-        };
-
-        // 監聽搜尋結果變化
-        const observer = new MutationObserver(updateTip);
-        observer.observe(resultsContainer, { childList: true, subtree: true });
-
-        // 輸入時也更新一次（避免時序問題）
-        const searchInput = document.getElementById('search-input');
-        if (searchInput) {
-          searchInput.addEventListener('input', () => {
-            setTimeout(updateTip, 50);
-          });
-        }
       }
     });
   });

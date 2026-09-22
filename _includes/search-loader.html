@@ -19,8 +19,7 @@
 {% capture not_found %}<p class="mt-5">{{ site.data.locales[include.lang].search.no_results }}</p>{% endcapture %}
 
 <script>
-  {% comment %} Note: dependent library will be loaded in `js-selector.html` {% endcomment %}
-  document.addEventListener('DOMContentLoaded', () => {
+  document.addEventListener('DOMContentLoaded', function () {
     SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('search-results'),
@@ -28,40 +27,34 @@
       searchResultTemplate: '{{ result_elem | strip_newlines }}',
       noResultsText: '{{ not_found }}',
       limit: 100,
-      templateMiddleware: function(prop, value, template) {
+      templateMiddleware: function (prop, value, template) {
         if (prop === 'categories') {
           if (value === '') {
-            return `${value}`;
-          } else {
-            return `<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>${value}</div>`;
+            return value;
           }
+          return '<div class="me-sm-4"><i class="far fa-folder fa-fw"></i>' + value + '</div>';
         }
-
         if (prop === 'tags') {
           if (value === '') {
-            return `${value}`;
-          } else {
-            return `<div><i class="fa fa-tag fa-fw"></i>${value}</div>`;
+            return value;
           }
+          return '<div><i class="fa fa-tag fa-fw"></i>' + value + '</div>';
         }
       }
     });
 
-    const resultsContainer = document.getElementById('search-results');
-    const tip = document.getElementById('search-limit-tip');
-    const countEl = document.getElementById('search-limit-count');
-    const hintEl = document.getElementById('search-limit-hint');
-    const searchInput = document.getElementById('search-input');
+    var resultsContainer = document.getElementById('search-results');
+    var tip = document.getElementById('search-limit-tip');
+    var countEl = document.getElementById('search-limit-count');
+    var hintEl = document.getElementById('search-limit-hint');
+    var searchInput = document.getElementById('search-input');
 
     if (resultsContainer && tip && countEl && hintEl) {
-      const updateTip = () => {
-        const count = resultsContainer.querySelectorAll('article').length;
-
+      var updateTip = function () {
+        var count = resultsContainer.querySelectorAll('article').length;
         if (count > 0) {
           tip.style.display = 'block';
           countEl.textContent = '搜尋結果最多顯示 100 筆，以上共顯示 ' + count + ' 筆';
-
-          // 剛好滿 100 筆時，顯示紅色提醒
           if (count >= 100) {
             hintEl.style.display = 'block';
           } else {
@@ -73,11 +66,11 @@
         }
       };
 
-      const observer = new MutationObserver(updateTip);
+      var observer = new MutationObserver(updateTip);
       observer.observe(resultsContainer, { childList: true, subtree: true });
 
       if (searchInput) {
-        searchInput.addEventListener('input', () => {
+        searchInput.addEventListener('input', function () {
           setTimeout(updateTip, 50);
         });
       }

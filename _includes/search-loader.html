@@ -46,5 +46,41 @@
         }
       }
     });
+
+    const resultsContainer = document.getElementById('search-results');
+    const tip = document.getElementById('search-limit-tip');
+    const countEl = document.getElementById('search-limit-count');
+    const hintEl = document.getElementById('search-limit-hint');
+    const searchInput = document.getElementById('search-input');
+
+    if (resultsContainer && tip && countEl && hintEl) {
+      const updateTip = () => {
+        const count = resultsContainer.querySelectorAll('article').length;
+
+        if (count > 0) {
+          tip.style.display = 'block';
+          countEl.textContent = '搜尋結果最多顯示 100 筆，以上共顯示 ' + count + ' 筆';
+
+          // 剛好滿 100 筆時，顯示紅色提醒
+          if (count >= 100) {
+            hintEl.style.display = 'block';
+          } else {
+            hintEl.style.display = 'none';
+          }
+        } else {
+          tip.style.display = 'none';
+          hintEl.style.display = 'none';
+        }
+      };
+
+      const observer = new MutationObserver(updateTip);
+      observer.observe(resultsContainer, { childList: true, subtree: true });
+
+      if (searchInput) {
+        searchInput.addEventListener('input', () => {
+          setTimeout(updateTip, 50);
+        });
+      }
+    }
   });
 </script>

@@ -27,6 +27,7 @@
       searchResultTemplate: '{{ result_elem | strip_newlines }}',
       noResultsText: '{{ not_found }}',
       limit: 100,
+      debounceTime: 300,
       templateMiddleware: function (prop, value, template) {
         if (prop === 'categories') {
           if (value === '') {
@@ -40,6 +41,15 @@
           }
           return '<div><i class="fa fa-tag fa-fw"></i>' + value + '</div>';
         }
+        if (prop === 'content') {
+          if (!value) {
+            return '';
+          }
+          if (value.length > 80) {
+            return value.substring(0, 80) + '…';
+          }
+          return value;
+        }
       }
     });
 
@@ -48,6 +58,7 @@
     var countEl = document.getElementById('search-limit-count');
     var hintEl = document.getElementById('search-limit-hint');
     var searchInput = document.getElementById('search-input');
+    var tipTimer = null;
 
     if (resultsContainer && tip && countEl && hintEl) {
       var updateTip = function () {
@@ -66,12 +77,20 @@
         }
       };
 
-      var observer = new MutationObserver(updateTip);
+      var observer = new MutationObserver(function () {
+        if (tipTimer) {
+          clearTimeout(tipTimer);
+        }
+        tipTimer = setTimeout(updateTip, 100);
+      });
       observer.observe(resultsContainer, { childList: true, subtree: true });
 
       if (searchInput) {
         searchInput.addEventListener('input', function () {
-          setTimeout(updateTip, 50);
+          if (tipTimer) {
+            clearTimeout(tipTimer);
+          }
+          tipTimer = setTimeout(updateTip, 120);
         });
       }
     }

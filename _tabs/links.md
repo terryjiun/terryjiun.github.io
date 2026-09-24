@@ -8,7 +8,7 @@ order: 5
 - 痞客邦平台：[泰瑞的世界](https://terryhung.pixnet.net/blog){:target="_blank"}（[已停止更新](https://terryjiun.github.io/posts/New-Blog/){:target="_blank"}）
 - 泰瑞的輸入法檔案：[Google Drive](https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh){:target="_blank"}、[OneDrive](https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA){:target="_blank"}
 - [特殊符號大全](https://terryhorng.github.io/symbol/symbol-1.htm){:target="_blank"}
-- [泰瑞系列輸入法─線上查碼](https://terryjiun.github.io/findcode){:target="_blank"}（使用[泰瑞系列輸入法碼表](https://terryjiun.github.io/posts/Terry-mb-2016-1/){:target="_blank"}，支援倉頡、注音、大易、行列、無蝦米）
+- [輸入法查碼](https://terryjiun.github.io/findcode){:target="_blank"}（使用[泰瑞系列輸入法碼表](https://terryjiun.github.io/posts/Terry-mb-2016-1/){:target="_blank"}，支援倉頡、注音、大易、行列、無蝦米）
 
 ## 小小輸入法
 - [小小輸入法論壇](https://yong.dgod.net/){:target="_blank"}

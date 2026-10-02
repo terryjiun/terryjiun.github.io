@@ -25,17 +25,17 @@ order: 5
 - [FISH UP 行列查碼](https://array30.misterfishup.com/dictionary.html){:target="_blank"}（查碼支援 CJK URO、Ext-A～D）
 - [太易資訊股份有限公司](https://www.dayi.com/){:target="_blank"}（大易輸入法官網）
 - [行易有限公司](https://boshiamy.com/){:target="_blank"}（嘸蝦米輸入法官網）（查碼支援 CJK URO）
-- [嘸蝦米社團(Facebook)](https://www.facebook.com/groups/166192980489031/){:target="_blank"}
+- [嘸蝦米社團](https://www.facebook.com/groups/166192980489031/){:target="_blank"}（Facebook）
 - [蝦米族樂園](https://vmliu.xyz/){:target="_blank"}（查碼程式已故障）
 - [嘸蝦米查碼](https://boshiamy.then.tw/){:target="_blank"}（查碼支援 CJK URO、Ext-A～D）
 - [萊姆輸入法](https://lime-ime.github.io/limeime/){:target="_blank"}（Android、iOS）
 - [SweetLIME](https://github.com/plateaukao/sweetlime){:target="_blank"}（Android）
-- [OpenVanilla(香草輸入法)](https://github.com/openvanilla/openvanilla){:target="_blank"}（MacOS）
+- [OpenVanilla](https://github.com/openvanilla/openvanilla){:target="_blank"}（MacOS）（在台灣常被稱為「香草輸入法」）
 
 # 網路資源與工具
-- [中國哲學書電子化計劃字典](https://ctext.org/dictionary.pl?if=gb){:target="_blank"}
-- [澳典字典](https://zidian.odict.net/zh-tw/){:target="_blank"}
 - [漢典](https://www.zdic.net/){:target="_blank"}
+- [澳典字典](https://zidian.odict.net/zh-tw/){:target="_blank"}
+- [中國哲學書電子化計劃字典](https://ctext.org/dictionary.pl?if=gb){:target="_blank"}
 - [Unicode code converter](https://r12a.github.io/app-conversion/){:target="_blank"}（字轉碼、碼轉字）
 - [遍黑體](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project){:target="_blank"}（支援 CJK URO、Ext-A～J）
 - [Jigmo(字雲)](https://kamichikoichi.github.io/jigmo/){:target="_blank"}（支援 CJK URO、Ext-A～J）

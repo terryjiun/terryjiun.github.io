@@ -14,10 +14,11 @@ order: 5
 - [小小輸入法論壇](https://yong.dgod.net/){:target="_blank"}
 - [小小輸入法下載](https://yongim.ysepan.com/){:target="_blank"}（可下載最新版本，再自行通過軟體自帶的更新功能更新到最新測試版本）
 
-## 推薦的連結
-- [全字庫](https://www.cns11643.gov.tw/){:target="_blank"}（查碼支援 CJK URO、Ext-A～D）
-- [五色倉頡](https://www.倉頡字典.com/){:target="_blank"}（查碼支援 CJK URO、Ext-A～B）
-- [倉頡之友](https://www.chinesecj.com/){:target="_blank"}（查碼支援 CJK URO、Ext-A）
+## 中文輸入法
+- [全字庫](https://www.cns11643.gov.tw/){:target="_blank"}（中標倉頡、中標注音，查碼支援 CJK URO、Ext-A～D）
+- [五色倉頡](https://www.倉頡字典.com/){:target="_blank"}（三代倉頡，查碼支援 CJK URO、Ext-A～B）
+- [倉頡之友](https://www.chinesecj.com/){:target="_blank"}
+- [漢文庫典](https://chidic.eduhk.hk/){:target="_blank"}（五代倉頡，查碼支援 CJK URO、Ext-A）
 - [行列輸入法的家](https://www.array.com.tw/){:target="_blank"}（行列輸入法官網）
 - [行列輸入法的家(社團)](https://www.facebook.com/groups/517104371955479){:target="_blank"}（Facebook）
 - [行列輸入法表格下載](https://github.com/gontera/array30){:target="_blank"}（GitHub）
@@ -29,6 +30,12 @@ order: 5
 - [嘸蝦米查碼](https://boshiamy.then.tw/){:target="_blank"}（查碼支援 CJK URO、Ext-A～D）
 - [萊姆輸入法](https://lime-ime.github.io/limeime/){:target="_blank"}（Android、iOS）
 - [SweetLIME](https://github.com/plateaukao/sweetlime){:target="_blank"}（Android）
-- [Unicode code converter ](https://r12a.github.io/app-conversion/){:target="_blank"}（字轉碼、碼轉字）
+- [OpenVanilla(香草輸入法)](https://github.com/openvanilla/openvanilla){:target="_blank"}（MacOS）
+
+# 網路資源與工具
+- [中國哲學書電子化計劃字典](https://ctext.org/dictionary.pl?if=gb){:target="_blank"}
+- [澳典字典](https://zidian.odict.net/zh-tw/){:target="_blank"}
+- [漢典](https://www.zdic.net/){:target="_blank"}
+- [Unicode code converter](https://r12a.github.io/app-conversion/){:target="_blank"}（字轉碼、碼轉字）
 - [遍黑體](https://github.com/Fitzgerald-Porthmouth-Koenigsegg/Plangothic_Project){:target="_blank"}（支援 CJK URO、Ext-A～J）
 - [Jigmo(字雲)](https://kamichikoichi.github.io/jigmo/){:target="_blank"}（支援 CJK URO、Ext-A～J）

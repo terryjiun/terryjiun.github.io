@@ -9,7 +9,7 @@ tags: [碼表, 倉頡, 注音, 拼音, 無蝦米]
 <span style="color: blue">以下內容及對應的輸入法對照表（碼表）發布於 2009 年，<br>
 近年來，筆者已將輸入法課題的重心移至「小小輸入法」，<br>
 因此，不再提供 for 「通用輸入法編輯工具」、「奇摩輸入法」、「香草輸入法」版本的對照表，</span><br>
-<span style="color: purple">如需取得最新版的對照表，請至【★新版「泰瑞系列中文輸入法對照表」簡介】一文內下載。<br>
+<span style="color: purple">如需取得最新版的對照表，請至【[新版「泰瑞系列中文輸入法對照表」簡介](https://terryjiun.github.io/posts/Terry-mb-2016-1/){:target="_blank"}】一文內下載。<br>
 或下載最新版【[泰瑞版小小輸入法](https://terryjiun.github.io/posts/Terry-Yong-CJK-Extension-I/){:target="_blank"}】，</span><br>
 <span style="color: blue">解壓縮後，查看「mb」資料夾下的 txt 檔，即可得到最新版的對照表。<br>
 保留本文的用意是讓一些讀者研究筆者早年發表的輸入法相關文章（重碼字分析）時，有所輔助，特此聲明。</span><br>
@@ -26,7 +26,7 @@ tags: [碼表, 倉頡, 注音, 拼音, 無蝦米]
 　1.重碼字變多，可能要浪費一些時間從候選字窗格裡挑選所欲輸入的字元。<br>
 　2.如果用「通用輸入法編輯工具」來產生輸入法軟體的話，<br>
 　　產生的輸入法軟體在後天上會有一些限制，<br>
-　　詳情請參考《★「輸入法對照表」的妙用與「通用輸入法編輯工具」的限制》這一篇文章。<br>
+　　詳情請參考《[「輸入法對照表」的妙用與「通用輸入法編輯工具」的限制](https://terryjiun.github.io/posts/Terry-mb-Windows-XP-IME/){:target="_blank"}》這一篇文章。<br>
 <br>
 我將這三種輸入法的對照表分成不同的版本，<br>
 &#42;.txt 檔可支援 Windows 附屬應用程式的「通用輸入法編輯工具」；<br>
@@ -112,7 +112,7 @@ tags: [碼表, 倉頡, 注音, 拼音, 無蝦米]
 　　值得一提的是：<br>
 　　完整版所有字的注音幾乎都是依照 CNS11643 網站上的定義，<br>
 　　但有 45 個字的注音是我自創的，<br>
-　　詳見《★支援 CJK Ext-B 字元的「泰瑞注音輸入法對照表」（補完計畫篇）》一文的說明。
+　　詳見《[支援 CJK Ext-B 字元的「泰瑞注音輸入法對照表」（補完計畫篇）](https://terryjiun.github.io/posts/Create-Terry-Phon-mb-2/){:target="_blank"}》一文的說明。
 
 ## 四、泰瑞拼音輸入法對照表
 

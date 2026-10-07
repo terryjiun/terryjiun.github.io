@@ -7,9 +7,9 @@ order: 5
 - 寫信聯絡泰瑞：[terryhorng@hotmail.com](mailto:terryhorng@hotmail.com)（僅回覆泰瑞發表過的文章及作品）
 - 痞客邦平台：[泰瑞的世界](https://terryhung.pixnet.net/blog){:target="_blank"}（[已停止更新](https://terryjiun.github.io/posts/New-Blog/){:target="_blank"}）
 - 泰瑞的輸入法檔案：[Google Drive](https://docs.google.com/leaf?id=0B_9ob1iJjpkLMmRjODE2NWQtNjViNC00ZWRkLTgyY2ItNGJhOWEzODU1ZDNh){:target="_blank"}、[OneDrive](https://1drv.ms/f/c/01b7d23cf55aac84/QoSsWvU80rcggAHPAgAAAAAAEkEClyhF5XEafA){:target="_blank"}
+- [泰瑞輸入法查碼與查字](https://terryjiun.github.io/findcode){:target="_blank"}（支援正查-以碼查字、反查-以字查碼，可用倉頡、注音、大易、行列、無蝦米查詢）<br>
+  （使用倉頡查詢時，支援 CJK URO、Ext-A～J 字元集，並同時支援三代、五代、不同字型檢視下之編碼）
 - [特殊符號大全](https://terryhorng.github.io/symbol/symbol-1.htm){:target="_blank"}
-- [輸入法查詢](https://terryjiun.github.io/findcode){:target="_blank"}（支援正查-以碼查字、反查-以字查碼，可用倉頡、注音、大易、行列、無蝦米查詢）
-  （使用倉頡查詢時支援 CJK URO、Ext-A～J，並同時支援三代及五代之編碼）
 
 ## 小小輸入法
 - [小小輸入法論壇](https://yong.dgod.net/){:target="_blank"}

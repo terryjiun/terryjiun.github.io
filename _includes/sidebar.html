@@ -40,9 +40,9 @@
     </ul>
   </nav>
 
-  <!-- GoatCounter 人氣 -->
+    <!-- GoatCounter 人氣 -->
   <div id="gc-popularity" class="w-100 px-3 mt-2 mb-3" style="font-size: 0.9rem; line-height: 1.7;">
-    <div>本日人氣：<span id="gc-today">…</span></div>
+    <div>昨日人氣：<span id="gc-today">…</span></div>
     <div>累積人氣：<span id="gc-total">…</span></div>
   </div>
 
@@ -184,7 +184,9 @@
       return y + '-' + m + '-' + day;
     }
 
-    var today = ymd(new Date());
+      var d = new Date();
+        d.setDate(d.getDate() - 1);
+      var yesterday = ymd(d);
 
     fetch(base)
       .then(function (r) { return r.json(); })
@@ -195,7 +197,7 @@
         totalEl.textContent = '-';
       });
 
-    fetch(base + '?start=' + today + '&end=' + today)
+    fetch(base + '?start=' + yesterday + '&end=' + yesterday)
       .then(function (r) { return r.json(); })
       .then(function (data) {
         todayEl.textContent = fmt(data.count);

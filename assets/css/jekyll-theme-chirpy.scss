@@ -131,9 +131,15 @@ hr {
   padding-left: 2.75rem !important;
   padding-right: 0.75rem !important;
   line-height: 1.7 !important;
+  color: var(--sidebar-active-color) !important;
+}
+
+#gc-popularity,
+#gc-popularity span {
+  font-family: inherit !important;
+  color: var(--sidebar-active-color) !important;
 }
 
 #gc-popularity span {
-  font-family: inherit !important;
   font-weight: 600;
 }

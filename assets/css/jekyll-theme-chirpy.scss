@@ -136,10 +136,11 @@ hr {
 
 #gc-popularity,
 #gc-popularity span {
-  font-family: inherit !important;
-  color: var(--sidebar-active-color) !important;
+  color: inherit !important;
 }
 
+#sidebar .site-title,
+#gc-popularity,
 #gc-popularity span {
-  font-weight: 600;
+  color: var(--sidebar-active-color) !important;
 }

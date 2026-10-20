@@ -131,16 +131,14 @@ hr {
   padding-left: 2.75rem !important;
   padding-right: 0.75rem !important;
   line-height: 1.7 !important;
-  color: var(--sidebar-active-color) !important;
 }
 
 #gc-popularity,
 #gc-popularity span {
-  color: inherit !important;
+  font-family: inherit !important;
+  color: var(--sidebar-muted-color) !important;
 }
 
-#sidebar .site-title,
-#gc-popularity,
 #gc-popularity span {
-  color: var(--sidebar-active-color) !important;
+  font-weight: 600;
 }
